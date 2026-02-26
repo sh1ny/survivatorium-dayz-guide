@@ -28,7 +28,7 @@ Keys are color-coded to give you a hint about where they might be used:
 
 
 
-*[Attach image: images/keycard-example.png here]*
+*[Attach image: ../images/keycard-example.png here]*
 
 ========================================
 
@@ -57,7 +57,7 @@ Airdrops are dynamic, server-wide events that deliver massive crates of high-val
 
 
 
-*[Attach image: images/airdrop-crate.png here]*
+*[Attach image: ../images/airdrop-crate.png here]*
 
 ========================================
 

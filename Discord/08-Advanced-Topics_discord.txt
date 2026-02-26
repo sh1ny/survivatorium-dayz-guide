@@ -24,7 +24,7 @@ Your Reputation is a measure of your standing on the server. It is a crucial met
 
 
 
-*[Attach image: images/reputation-interface.png here]*
+*[Attach image: ../images/reputation-interface.png here]*
 
 ========================================
 
@@ -71,7 +71,7 @@ The server uses the **MMG Storage** mod, which provides a variety of high-capaci
 
 
 
-*[Attach image: images/mmg-storage.png here]*
+*[Attach image: ../images/mmg-storage.png here]*
 
 ========================================
 

@@ -25,7 +25,7 @@ A stock rifle is just the beginning. You can customize your firearms to suit you
 
 
 
-*[Attach image: images/weapon-attachment.png here]*
+*[Attach image: ../images/weapon-attachment.png here]*
 
 ========================================
 
@@ -52,7 +52,7 @@ Survivatorium uses the **Real-World Ammo & Ballistics** mod, which significantly
 
 
 
-*[Attach image: images/ballistics-chart.png here]*
+*[Attach image: ../images/ballistics-chart.png here]*
 
 ========================================
 

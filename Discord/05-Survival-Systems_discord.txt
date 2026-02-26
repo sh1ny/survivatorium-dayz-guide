@@ -11,21 +11,32 @@ Survivatorium features a realistic stamina system that forces you to think caref
 
 
 
-*[Attach image: images/stamina-meter.png here]*
+*[Attach image: ../images/stamina-meter.png here]*
 
 ========================================
 
 === POST 2 ===
+### Two Stamina Bars (Important)
+- **White bar:** Short-burst vanilla stamina for immediate actions.
+- **Yellow bar:** Inedia general stamina (long-term endurance).
+
+On this server, Inedia stamina is active, while Inedia's own sleep stamina is disabled. Your sleep/fatigue gameplay comes from the Terje medicine system instead.
+
 ### Weight Matters
 The more gear you carry, the slower you will move and the faster your stamina will drain. 
 - **Light Load:** Optimal for long-distance travel and combat mobility.
-- **Heavy Load:** You will experience noticeable slowdowns.
-- **Overloaded:** If you carry too much, you will be forced to walk or even become completely immobilized. Drop unnecessary items!
+- **Heavy Load:** You will experience noticeable slowdowns, especially once you move into very high carry weight.
+- **Overloaded:** The harsh movement penalties begin much later than vanilla-style hardcore setups, but if you push too far you can still be forced into walking and eventually movement lock.
 
 ### Terrain & Slopes
 Your environment directly impacts your energy levels:
 - **Surfaces:** Running on paved roads is highly efficient. Running through tall grass, deep snow, or wading through water will exhaust you quickly.
 - **Slopes:** Sprinting up a steep hill will drain your stamina in seconds. Plan your routes to avoid steep inclines if you are heavily geared.
+
+### How This Server Is Tuned
+- **More forgiving than default Inedia:** Sprint/jog drain is reduced compared to stock wiki values, so players can stay active longer in PvP and movement-heavy fights.
+- **Low/Critical thresholds:** Debuffs begin at roughly low yellow stamina, and become severe at critical yellow stamina.
+- **Heat still matters:** Overheating increases stamina consumption, so temperature management is still part of movement planning.
 
 ### Energy Drinks
 Keep an eye out for energy drinks (like MadBull or Pipsi). Consuming them will give you a temporary boost to your stamina recovery, which can be a lifesaver during a long trek or a firefight.
@@ -34,6 +45,9 @@ Keep an eye out for energy drinks (like MadBull or Pipsi). Consuming them will g
 
 ## Essential Survival Tools
 
+========================================
+
+=== POST 3 ===
 ### The Metro Watch
 A true survivor needs to keep track of time and their environment. The **Metro Watch** is a highly sought-after piece of gear that provides crucial information at a glance.
 - **Time & Date:** Keep track of daylight hours so you aren't caught out in the dark.
@@ -47,11 +61,11 @@ As you survive and perform actions in the world, your character will learn and g
 
 
 
-*[Attach image: images/medical-interface.png here]*
+*[Attach image: ../images/medical-interface.png here]*
 
 ========================================
 
-=== POST 3 ===
+=== POST 4 ===
 ### Skill Progression
 You gain experience simply by playing the game. 
 - **Athletics & Strength:** Running, jumping, and carrying gear will slowly improve your physical capabilities.
@@ -79,7 +93,7 @@ A simple bandage won't fix everything anymore. The medical system is deep and re
 
 ========================================
 
-=== POST 4 ===
+=== POST 5 ===
 ### Diseases & Infections
 - **Wound Infection:** Always use disinfected bandages! Using dirty rags will lead to sepsis, which requires strong antibiotics to cure.
 - **Zombie Virus:** Getting hit by infected carries a risk of contracting the zombie virus. Keep antiviral medication on hand.

@@ -22,7 +22,7 @@ Before you can start building your fortress, you need to claim the land. Territo
 
 
 
-*[Attach image: images/territory-flag.png here]*
+*[Attach image: ../images/territory-flag.png here]*
 
 ========================================
 
@@ -82,7 +82,7 @@ Code locks are essential for securing your base doors and high-tier storage cont
 
 
 
-*[Attach image: images/code-lock-setup.png here]*
+*[Attach image: ../images/code-lock-setup.png here]*
 
 ========================================
 
@@ -123,7 +123,7 @@ While walls require explosives, some smaller obstacles can be bypassed with the 
 
 
 
-*[Attach image: images/raid-protection.png here]*
+*[Attach image: ../images/raid-protection.png here]*
 
 ========================================
 

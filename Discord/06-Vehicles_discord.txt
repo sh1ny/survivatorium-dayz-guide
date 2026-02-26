@@ -30,7 +30,7 @@ The ultimate flex. Helicopters allow you to bypass the dangerous roads entirely,
 
 
 
-*[Attach image: images/vehicle-key.png here]*
+*[Attach image: ../images/vehicle-key.png here]*
 
 ========================================
 
@@ -52,7 +52,7 @@ A vehicle without a key is just a temporary ride. To truly own a vehicle, you ne
 
 
 
-*[Attach image: images/lockpicking.png here]*
+*[Attach image: ../images/lockpicking.png here]*
 
 ========================================
 
@@ -74,7 +74,7 @@ Not all locks are created equal. A simple Zodiac boat is relatively easy to pick
 
 
 
-*[Attach image: images/towing-setup.png here]*
+*[Attach image: ../images/towing-setup.png here]*
 
 ========================================
 

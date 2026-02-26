@@ -12,7 +12,7 @@ The server uses **Hryvnia** as the primary currency. You'll need it to buy gear,
 
 
 
-*[Attach image: images/market-interface.png here]*
+*[Attach image: ../images/market-interface.png here]*
 
 ========================================
 
@@ -33,7 +33,7 @@ New players receive a small starting stipend of Hryvnia upon completing their in
 ### Quest Board
 
 
-*[Attach image: images/quest-board.png here]*
+*[Attach image: ../images/quest-board.png here]*
 
 ========================================
 
@@ -43,7 +43,7 @@ The Quest Board is your central hub for finding work. Located in the main settle
 ### Quest Interface
 
 
-*[Attach image: images/quest-interface.png here]*
+*[Attach image: ../images/quest-interface.png here]*
 
 ========================================
 
@@ -106,7 +106,7 @@ The Market is where you'll spend your hard-earned Hryvnia. Traders are set up in
 
 
 
-*[Attach image: images/trader-location.png here]*
+*[Attach image: ../images/trader-location.png here]*
 
 ========================================
 

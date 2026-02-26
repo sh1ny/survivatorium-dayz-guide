@@ -32,7 +32,7 @@ Welcome to Survivatorium on DeerIsle. This guide covers everything you need to k
 
 
 
-*[Attach image: images/spawn-location.png here]*
+*[Attach image: ../images/spawn-location.png here]*
 
 ========================================
 
@@ -70,14 +70,17 @@ The server uses a carefully curated modpack to enhance the survival experience. 
 
 When you first wake up on the shores of DeerIsle:
 
-1. **Orientation Quest** - You'll receive an automatic quest directing you to find the main Quest Board.
-2. **Starting Gear** - You begin with basic civilian clothing and a small amount of Hryvnia (the local currency) to get you started.
-3. **Location** - You'll spawn near one of the coastal towns, giving you a chance to scavenge before heading inland.
-
 ========================================
 
 === POST 3 ===
-*[Attach image: images/hud-overview.png here]*
+1. **Orientation Quest** - You'll receive an automatic quest directing you to find the main Quest Board.
+2. **Start Screen Flow** - You will go through the Terje Start Screen pages (rules, name/face, skills, loadout, and map respawn selection).
+3. **Starting Loadout** - You can spawn with a starter loadout. Available options include a standard civilian kit, a larger custom loadout option, and conditional loadouts (for example, skill-gated or admin-only).
+4. **Location** - Default respawn is DeerIsle random coastal/inland spawn points, with extra options such as sleeping bag or deathpoint respawn when available.
+
+
+
+*[Attach image: ../images/hud-overview.png here]*
 
 ========================================
 
@@ -96,23 +99,30 @@ The server features an enhanced HUD to help you monitor your vital stats:
 
 ### Core Indicators
 - **Health & Blood** - Keep an eye on your overall condition.
-- **Stamina Bar** - Shows your current energy level for sprinting and melee attacks.
+- **White Stamina Bar** - Your short-burst vanilla stamina (for sprinting, melee bursts, climbing, and fast movement).
+- **Yellow Stamina Bar** - Your long-term Inedia stamina pool, affected by weight, terrain, slope, and heat.
 - **Hunger & Thirst** - Essential survival indicators. Don't let these drop too low!
 - **Temperature** - Monitor your body heat to avoid freezing or overheating.
 
 ### Specialized Indicators
 - **Radiation Warning** - A distinct warning will appear when you enter irradiated zones. Make sure you have the proper protective gear!
 - **Skill Progress** - Notifications will pop up as you level up your various survival skills.
+- **Mind Icon (Terje Medicine)** - Tracks mental state. Low mind can trigger severe penalties and dangerous behavior.
+- **Sleep Icon (Terje Medicine)** - Tracks fatigue from the Terje sleep system.
+- **Reputation (right side)** - Your progression currency for unlocking stronger trader access.
 
 ### Advanced Stamina
 The stamina system is heavily influenced by your gear:
-- **Weight Matters:** Carrying heavy loads will significantly reduce your maximum stamina and increase drain.
-- **Terrain Impact:** Running uphill or through difficult terrain (like swamps or deep snow) will exhaust you much faster than running on a paved road.
+- **Weight Matters:** Running heavy is still punishing, but your current server settings are tuned to be more forgiving than default Inedia values.
+- **Terrain Impact:** Running uphill, through tall grass/forest, sand, and especially water drains your yellow stamina much faster than moving on roads.
 
 ---
 
 ## Your First Steps
 
+========================================
+
+=== POST 5 ===
 ### Step 1: Find Water and Food
 - Look for water pumps in towns.
 - Search residential houses and greenhouses for canned food or fresh produce.
@@ -126,11 +136,11 @@ The stamina system is heavily influenced by your gear:
 ### Step 3: Locate the Quest Board
 
 
-*[Attach image: images/quest-board.png here]*
+*[Attach image: ../images/quest-board.png here]*
 
 ========================================
 
-=== POST 5 ===
+=== POST 6 ===
 The Quest Board is your central hub for progression. Here you can:
 - Accept new quests.
 - Progress through various storylines.
@@ -175,7 +185,7 @@ Quickly grab loot off the ground or dump unwanted items without dragging and dro
 
 ========================================
 
-=== POST 6 ===
+=== POST 7 ===
 1. **Trust no one** - The map is 100% KOS (Kill on Sight). Always be on your guard.
 2. **Stay hydrated** - Clean water is essential. Purify water from ponds or streams if you can't find a well.
 3. **Travel light** - Don't hoard every item you find. Manage your weight to maintain your stamina and mobility.
