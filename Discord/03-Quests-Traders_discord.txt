@@ -1,0 +1,130 @@
+=== POST 1 ===
+# Quests & Traders
+
+Master the quest system and economy to earn Hryvnia and progress on Survivatorium.
+
+---
+
+## Currency
+
+### Hryvnia
+The server uses **Hryvnia** as the primary currency. You'll need it to buy gear, vehicles, and supplies from the traders.
+
+
+
+*[Attach image: images/market-interface.png here]*
+
+========================================
+
+=== POST 2 ===
+### Earning Hryvnia
+- **Quest Rewards:** Completing quests is the most reliable way to earn money.
+- **Selling Items:** Scavenge the wasteland and sell valuable loot to the traders.
+- **Player Trading:** Sell rare items directly to other players.
+- **Airdrops:** High-risk airdrops often contain large stacks of cash.
+
+### Starting Money
+New players receive a small starting stipend of Hryvnia upon completing their initial orientation.
+
+---
+
+## Quest System
+
+### Quest Board
+
+
+*[Attach image: images/quest-board.png here]*
+
+========================================
+
+=== POST 3 ===
+The Quest Board is your central hub for finding work. Located in the main settlement area, it offers a variety of contracts for mercenaries and survivors alike.
+
+### Quest Interface
+
+
+*[Attach image: images/quest-interface.png here]*
+
+========================================
+
+=== POST 4 ===
+When you open a quest, you'll see:
+- **Description:** The backstory and context for your mission.
+- **Objective:** Exactly what you need to do (e.g., travel to a location, kill a target, deliver an item).
+- **Rewards:** The Hryvnia, items, and Reputation you will earn upon completion.
+
+### Quest Types
+- **Travel:** Scout out a specific location.
+- **Delivery:** Transport sensitive items to an NPC.
+- **Collection:** Gather specific supplies (like medical gear or food) and turn them in.
+- **Hunt:** Track down and eliminate specific wildlife.
+- **Elimination:** Clear out infected or hostile AI mercenaries.
+- **Escort:** Protect VIPs as they move through dangerous territory.
+
+### Quest Mechanics
+- **Chains:** Many quests are part of a larger storyline. Completing one will unlock the next.
+- **Reputation:** High-tier, lucrative quests require you to build up your Reputation first.
+- **Group Quests:** Some of the harder missions are best tackled with a squad.
+
+---
+
+## Questlines
+
+There are several major storylines and contract types available on the server. Here are a few you can expect to encounter:
+
+### Orientation
+Your first task upon waking up on DeerIsle. It will guide you to the Quest Board and introduce you to the basics of survival.
+
+### Medical Support
+**Contact:** STAG Medical Chief Officer Peters
+The medical staff is always in need of supplies and capable hands. You'll start with basic medic training and progress to dangerous supply runs into infected territory.
+
+### Hunting Contracts
+The local populace needs food, and the wildlife needs culling. You can pick up contracts to hunt everything from chickens and pigs to dangerous predators like wolves and bears. The more dangerous the prey, the higher the payout.
+
+========================================
+
+=== POST 5 ===
+### Threat Intelligence
+**Contact:** STAG Threat Intelligence Officer Harris
+For the combat-oriented survivor. These missions involve scouting enemy AI camps, intercepting black site communications, and engaging in heavy firefights.
+
+### Mopping Up & Field Validation
+Prove your worth by clearing out designated zones of infected and hostile mercenaries. These quests scale in difficulty and are a great way to test your combat skills.
+
+### VIP Escort
+High-value targets need to be moved across the island. You'll be tasked with protecting them from ambushes as they travel to extraction points like the Power Plant or Paris Island.
+
+### Treasure Hunts
+Follow cryptic clues to find hidden stashes of valuable loot scattered across the map.
+
+---
+
+## The Market
+
+The Market is where you'll spend your hard-earned Hryvnia. Traders are set up in safe zones to buy and sell goods.
+
+
+
+*[Attach image: images/trader-location.png here]*
+
+========================================
+
+=== POST 6 ===
+### What You Can Buy & Sell
+
+- **Weapons & Ammo:** Everything from basic civilian rifles to advanced military hardware, plus the ammunition and magazines to keep them firing.
+- **Attachments:** Optics, suppressors, grips, and more to customize your firearms.
+- **Clothing & Armor:** Basic survival gear, high-end tactical clothing (like FOG gear), helmets, and plate carriers.
+- **Medical Supplies:** Bandages, blood bags, specialized injectors, and radiation medication.
+- **Base Building:** Tools, nails, and materials to construct your stronghold.
+- **Vehicles:** Cars, boats, and helicopters (if you have the cash!).
+- **Miscellaneous & Collectibles:** Keep an eye out for rare, random items scattered across the world. Some of these oddities can fetch a high price at the right trader!
+
+### Trading Tips
+- **Condition Matters:** Traders will pay less for damaged goods. Repair your weapons and clothing before selling them if possible.
+- **Supply and Demand:** Keep an eye on what the traders need. Some items might fetch a premium.
+- **Save for the Good Stuff:** Don't blow all your money on basic gear. Save up for high-tier weapons, vehicles, or base building supplies that are hard to find in the wild.
+
+========================================
+

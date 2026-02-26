@@ -1,0 +1,1229 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="DayZ Survivatorium server guide">
+      
+      
+      
+        <link rel="canonical" href="https://sh1ny.github.io/survivatorium-dayz-guide/GUIDE_PLAN/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.3">
+    
+    
+      
+        <title>Survivatorium Player's Guide - Implementation Plan - Survivatorium Player Guide</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="green">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#survivatorium-players-guide-implementation-plan" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Survivatorium Player Guide" class="md-header__button md-logo" aria-label="Survivatorium Player Guide" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Survivatorium Player Guide
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Survivatorium Player's Guide - Implementation Plan
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Survivatorium Player Guide" class="md-nav__button md-logo" aria-label="Survivatorium Player Guide" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Survivatorium Player Guide
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01-Getting-Started/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting Started
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02-Base-Building/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Base Building
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../03-Quests-Traders/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quests & Traders
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04-Combat-Weapons/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Combat & Weapons
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05-Survival-Systems/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Survival Systems
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06-Vehicles/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vehicles
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../07-KeyRooms-Airdrops/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    KeyRooms & Airdrops
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../08-Advanced-Topics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Advanced Topics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overview
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#folder-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Folder Structure
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#server-configuration-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Server Configuration Summary
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Server Configuration Summary">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#core-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Core Settings
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#territory-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Territory System
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#raiding-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Raiding Configuration
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vehicle-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vehicle System
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stamina-inedia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stamina (Inedia)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reputation-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reputation System
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rarity-tiers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Rarity Tiers
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#server-rules-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Server Rules Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quest-system-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quest System Analysis
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Quest System Analysis">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#quest-npc-ids-identified" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quest NPC IDs Identified
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quest-categories" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quest Categories
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#key-quest-npcs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key Quest NPCs
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-mods-installed" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key Mods Installed
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bs-keyroom-loot-pools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        BS KeyRoom Loot Pools
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#image-placeholders-needed" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Image Placeholders Needed
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Image Placeholders Needed">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#getting-started" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Getting Started
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#base-building" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Base Building
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quests-traders" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests &amp; Traders
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#combat-weapons" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Combat &amp; Weapons
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#survival-systems" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Survival Systems
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vehicles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vehicles
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#keyrooms-airdrops" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        KeyRooms &amp; Airdrops
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#advanced-topics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Advanced Topics
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#implementation-order" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Implementation Order
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#progress-tracking" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Progress Tracking
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Notes
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="survivatorium-players-guide-implementation-plan">Survivatorium Player's Guide - Implementation Plan<a class="headerlink" href="#survivatorium-players-guide-implementation-plan" title="Permanent link">&para;</a></h1>
+<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
+<p>This document outlines the implementation plan for comprehensive wiki-style player guides for the Survivatorium DayZ server running on the DeerIsle map.</p>
+<h2 id="folder-structure">Folder Structure<a class="headerlink" href="#folder-structure" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>PlayersGuide/
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>├── README.md                      # Index &amp; navigation
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>├── GUIDE_PLAN.md                  # This file
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>├── images/                        # Screenshots folder (to be populated)
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>├── 01-Getting-Started.md          # Server rules, mod list, first steps
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>├── 02-Base-Building.md            # BBP, territories, raiding, code locks
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>├── 03-Quests-Traders.md           # Quest NPCs, questlines, market, currency
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>├── 04-Combat-Weapons.md           # TF/FOG weapons, Real-World Ammo, skills
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>├── 05-Survival-Systems.md         # Inedia stamina, Terje medicine/radiation
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>├── 06-Vehicles.md                 # Keys, lockpicking, towing, helis, boats
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>├── 07-KeyRooms-Airdrops.md        # BS KeyRoom keys, loot pools, airdrops
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>└── 08-Advanced-Topics.md          # Reputation, P2P market, personal storage
+</code></pre></div>
+<h2 id="server-configuration-summary">Server Configuration Summary<a class="headerlink" href="#server-configuration-summary" title="Permanent link">&para;</a></h2>
+<h3 id="core-settings">Core Settings<a class="headerlink" href="#core-settings" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Map:</strong> DeerIsle</li>
+<li><strong>Currency:</strong> Hryvnia (ExpansionBanknoteHryvnia)</li>
+<li><strong>Raiding:</strong> 24/7 enabled</li>
+</ul>
+<h3 id="territory-system">Territory System<a class="headerlink" href="#territory-system" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Radius:</strong> 150m</li>
+<li><strong>Max Members:</strong> 10</li>
+<li><strong>Max Territories Per Player:</strong> 1</li>
+<li><strong>Build Restriction:</strong> 500m from military areas</li>
+</ul>
+<h3 id="raiding-configuration">Raiding Configuration<a class="headerlink" href="#raiding-configuration" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Raid Time:</strong> 24/7 (all hours)</li>
+<li><strong>Propane Torch:</strong> 600 seconds (10 minutes)</li>
+<li><strong>Explosives:</strong> Enabled</li>
+</ul>
+<h3 id="vehicle-system">Vehicle System<a class="headerlink" href="#vehicle-system" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Key Required:</strong> Yes</li>
+<li><strong>Lockpick Chance:</strong> 40%</li>
+<li><strong>Lockpick Time:</strong> 120 seconds</li>
+<li><strong>Towing:</strong> Enabled</li>
+</ul>
+<h3 id="stamina-inedia">Stamina (Inedia)<a class="headerlink" href="#stamina-inedia" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Overload Threshold:</strong> 105kg</li>
+<li><strong>Surface/Slope Modifiers:</strong> Enabled</li>
+</ul>
+<h3 id="reputation-system">Reputation System<a class="headerlink" href="#reputation-system" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Maximum Reputation:</strong> 16,000</li>
+<li><strong>Death Penalty:</strong> -250 reputation</li>
+</ul>
+<h3 id="rarity-tiers">Rarity Tiers<a class="headerlink" href="#rarity-tiers" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Poor</li>
+<li>Common</li>
+<li>Uncommon</li>
+<li>Rare</li>
+<li>Epic</li>
+<li>Legendary</li>
+<li>Mythic</li>
+<li>Exotic</li>
+</ol>
+<h2 id="server-rules-summary">Server Rules Summary<a class="headerlink" href="#server-rules-summary" title="Permanent link">&para;</a></h2>
+<p>From <code>TerjeSettings/StartScreen/ServerRules.md</code>:
+- KOS Server - Kill on Sight allowed
+- No combat logging
+- Maximum 2 bases per group
+- No grief raiding (raid only if you need access)
+- 500m build restriction from military areas</p>
+<h2 id="quest-system-analysis">Quest System Analysis<a class="headerlink" href="#quest-system-analysis" title="Permanent link">&para;</a></h2>
+<h3 id="quest-npc-ids-identified">Quest NPC IDs Identified<a class="headerlink" href="#quest-npc-ids-identified" title="Permanent link">&para;</a></h3>
+<ul>
+<li>ID 1: Quest Board (main hub)</li>
+<li>ID 2: STAG Medical Chief Officer Peters</li>
+<li>ID 6: STAG Threat Intelligence Officer Harris</li>
+</ul>
+<h3 id="quest-categories">Quest Categories<a class="headerlink" href="#quest-categories" title="Permanent link">&para;</a></h3>
+<ol>
+<li><strong>First Login</strong> (900): Orientation quest - 500 Hryvnia reward</li>
+<li><strong>Medical Support</strong> (100-112): Medical Chief Peters questline</li>
+<li><strong>Hunting</strong> (001-018): Various animal hunting quests</li>
+<li><strong>Supply Run</strong> (101-108): Supply retrieval quests</li>
+<li><strong>Threat Intelligence</strong> (500-520): Combat-oriented quests</li>
+<li><strong>Field Validation</strong> (621-628): Progression quests</li>
+<li><strong>Mopping Up</strong> (601-610): Clear area quests</li>
+<li><strong>AI VIP Escort</strong> (300-305): VIP protection missions</li>
+<li><strong>Treasure Hunt</strong> (401-402): Location-based quests</li>
+</ol>
+<h3 id="key-quest-npcs">Key Quest NPCs<a class="headerlink" href="#key-quest-npcs" title="Permanent link">&para;</a></h3>
+<ul>
+<li>STAG Medical Chief Officer Peters</li>
+<li>STAG Threat Intelligence Officer Harris</li>
+</ul>
+<h2 id="key-mods-installed">Key Mods Installed<a class="headerlink" href="#key-mods-installed" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Mod</th>
+<th>Steam Workshop ID</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>DayZ Expansion Bundle</td>
+<td>2116331222</td>
+<td>Core server systems</td>
+</tr>
+<tr>
+<td>BaseBuildingPlus</td>
+<td>1715978237</td>
+<td>Enhanced base building</td>
+</tr>
+<tr>
+<td>Terje Core</td>
+<td>2628340361</td>
+<td>Core framework</td>
+</tr>
+<tr>
+<td>Terje Medicine</td>
+<td>2661781429</td>
+<td>Medical system</td>
+</tr>
+<tr>
+<td>Terje Radiation</td>
+<td>2661782621</td>
+<td>Radiation zones</td>
+</tr>
+<tr>
+<td>Terje Skills</td>
+<td>2661783316</td>
+<td>Skill system</td>
+</tr>
+<tr>
+<td>Terje StartScreen</td>
+<td>2954297974</td>
+<td>Server rules display</td>
+</tr>
+<tr>
+<td>BS KeyRoom</td>
+<td>2496635235</td>
+<td>Key room system</td>
+</tr>
+<tr>
+<td>BS HackedCrate</td>
+<td>2558915364</td>
+<td>Hackable crates</td>
+</tr>
+<tr>
+<td>BS Patrol Helicopter</td>
+<td>2689003982</td>
+<td>AI helicopter patrols</td>
+</tr>
+<tr>
+<td>Tactical Flava</td>
+<td>2365966688</td>
+<td>Weapons &amp; gear</td>
+</tr>
+<tr>
+<td>Forward Operator Gear</td>
+<td>2684068400</td>
+<td>Military gear</td>
+</tr>
+<tr>
+<td>Real-World Ammo &amp; Ballistics</td>
+<td>2473627530</td>
+<td>Realistic ballistics</td>
+</tr>
+<tr>
+<td>MMG Storage</td>
+<td>2109351786</td>
+<td>Storage solutions</td>
+</tr>
+<tr>
+<td>Code Lock</td>
+<td>1656154514</td>
+<td>Code lock system</td>
+</tr>
+<tr>
+<td>Breachingcharge</td>
+<td>2066127386</td>
+<td>Raid explosives</td>
+</tr>
+<tr>
+<td>InediaStamina</td>
+<td>2858133623</td>
+<td>Stamina overhaul</td>
+</tr>
+<tr>
+<td>zm Workbench</td>
+<td>2225484062</td>
+<td>Crafting workbench</td>
+</tr>
+<tr>
+<td>Dogtags</td>
+<td>2496635235</td>
+<td>Player identification</td>
+</tr>
+<tr>
+<td>Secure Containers</td>
+<td>2268446040</td>
+<td>Secure storage</td>
+</tr>
+</tbody>
+</table>
+<h2 id="bs-keyroom-loot-pools">BS KeyRoom Loot Pools<a class="headerlink" href="#bs-keyroom-loot-pools" title="Permanent link">&para;</a></h2>
+<p>From <code>BS_KeyRoom_Settings.json</code>:
+- Beginner_Guns
+- Closerange_NonMilitary
+- FOG_Arctic_CB (High/Mid/Low)
+- FOG_AthleticShorts_M81 (High/Mid/Low)
+- FOG_AthleticShorts_MCB (High/Mid/Low)</p>
+<h2 id="image-placeholders-needed">Image Placeholders Needed<a class="headerlink" href="#image-placeholders-needed" title="Permanent link">&para;</a></h2>
+<h3 id="getting-started">Getting Started<a class="headerlink" href="#getting-started" title="Permanent link">&para;</a></h3>
+<ul>
+<li><code>images/spawn-location.png</code> - Spawn areas map</li>
+<li><code>images/hud-overview.png</code> - HUD elements explained</li>
+<li><code>images/quest-board.png</code> - Quest board location</li>
+<li><code>images/inventory-basics.png</code> - Inventory management</li>
+</ul>
+<h3 id="base-building">Base Building<a class="headerlink" href="#base-building" title="Permanent link">&para;</a></h3>
+<ul>
+<li><code>images/bbp-crafting-menu.png</code> - BBP crafting interface</li>
+<li><code>images/territory-flag.png</code> - Territory flag placement</li>
+<li><code>images/code-lock-setup.png</code> - Code lock configuration</li>
+<li><code>images/raid-protection.png</code> - Base defense examples</li>
+</ul>
+<h3 id="quests-traders">Quests &amp; Traders<a class="headerlink" href="#quests-traders" title="Permanent link">&para;</a></h3>
+<ul>
+<li><code>images/trader-location.png</code> - Trader locations map</li>
+<li><code>images/quest-interface.png</code> - Quest menu</li>
+<li><code>images/market-interface.png</code> - Market trading UI</li>
+</ul>
+<h3 id="combat-weapons">Combat &amp; Weapons<a class="headerlink" href="#combat-weapons" title="Permanent link">&para;</a></h3>
+<ul>
+<li><code>images/weapon-attachment.png</code> - Attachment system</li>
+<li><code>images/ballistics-chart.png</code> - Ammo types comparison</li>
+</ul>
+<h3 id="survival-systems">Survival Systems<a class="headerlink" href="#survival-systems" title="Permanent link">&para;</a></h3>
+<ul>
+<li><code>images/stamina-meter.png</code> - Stamina display</li>
+<li><code>images/radiation-zone.png</code> - Radiation areas map</li>
+<li><code>images/medical-interface.png</code> - Terje medical UI</li>
+</ul>
+<h3 id="vehicles">Vehicles<a class="headerlink" href="#vehicles" title="Permanent link">&para;</a></h3>
+<ul>
+<li><code>images/vehicle-key.png</code> - Key system</li>
+<li><code>images/lockpicking.png</code> - Lockpick interface</li>
+<li><code>images/towing-setup.png</code> - Towing configuration</li>
+</ul>
+<h3 id="keyrooms-airdrops">KeyRooms &amp; Airdrops<a class="headerlink" href="#keyrooms-airdrops" title="Permanent link">&para;</a></h3>
+<ul>
+<li><code>images/keyroom-entrance.png</code> - KeyRoom entrance</li>
+<li><code>images/key-types.png</code> - Different key tiers</li>
+<li><code>images/airdrop-smoke.png</code> - Airdrop identification</li>
+</ul>
+<h3 id="advanced-topics">Advanced Topics<a class="headerlink" href="#advanced-topics" title="Permanent link">&para;</a></h3>
+<ul>
+<li><code>images/reputation-tiers.png</code> - Reputation system</li>
+<li><code>images/p2p-market.png</code> - Player-to-player trading</li>
+<li><code>images/personal-storage.png</code> - Storage interface</li>
+</ul>
+<h2 id="implementation-order">Implementation Order<a class="headerlink" href="#implementation-order" title="Permanent link">&para;</a></h2>
+<ol>
+<li>README.md - Index and navigation</li>
+<li>01-Getting-Started.md - Foundation for new players</li>
+<li>02-Base-Building.md - Essential base building info</li>
+<li>03-Quests-Traders.md - Economy and progression</li>
+<li>04-Combat-Weapons.md - Combat mechanics</li>
+<li>05-Survival-Systems.md - Health and stamina</li>
+<li>06-Vehicles.md - Transportation</li>
+<li>07-KeyRooms-Airdrops.md - Endgame content</li>
+<li>08-Advanced-Topics.md - Advanced systems</li>
+</ol>
+<h2 id="progress-tracking">Progress Tracking<a class="headerlink" href="#progress-tracking" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Status</th>
+<th>Last Updated</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>README.md</td>
+<td>Not Started</td>
+<td>-</td>
+</tr>
+<tr>
+<td>01-Getting-Started.md</td>
+<td>Not Started</td>
+<td>-</td>
+</tr>
+<tr>
+<td>02-Base-Building.md</td>
+<td>Not Started</td>
+<td>-</td>
+</tr>
+<tr>
+<td>03-Quests-Traders.md</td>
+<td>Not Started</td>
+<td>-</td>
+</tr>
+<tr>
+<td>04-Combat-Weapons.md</td>
+<td>Not Started</td>
+<td>-</td>
+</tr>
+<tr>
+<td>05-Survival-Systems.md</td>
+<td>Not Started</td>
+<td>-</td>
+</tr>
+<tr>
+<td>06-Vehicles.md</td>
+<td>Not Started</td>
+<td>-</td>
+</tr>
+<tr>
+<td>07-KeyRooms-Airdrops.md</td>
+<td>Not Started</td>
+<td>-</td>
+</tr>
+<tr>
+<td>08-Advanced-Topics.md</td>
+<td>Not Started</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+<h2 id="notes">Notes<a class="headerlink" href="#notes" title="Permanent link">&para;</a></h2>
+<ul>
+<li>All guides should use image placeholders in format: <code>![Description](images/example.png)</code></li>
+<li>Guides should be comprehensive but readable</li>
+<li>Include practical tips and warnings</li>
+<li>Cross-reference between guides where relevant</li>
+<li>Keep server-specific information accurate to config files</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.sections", "navigation.top", "search.suggest", "search.highlight"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

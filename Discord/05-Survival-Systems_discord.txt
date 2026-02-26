@@ -1,0 +1,106 @@
+=== POST 1 ===
+# Survival Systems
+
+Surviving on DeerIsle requires more than just a loaded gun. You must manage your physical condition, treat complex injuries, and navigate hazardous environments.
+
+---
+
+## Advanced Stamina
+
+Survivatorium features a realistic stamina system that forces you to think carefully about your loadout and your route.
+
+
+
+*[Attach image: images/stamina-meter.png here]*
+
+========================================
+
+=== POST 2 ===
+### Weight Matters
+The more gear you carry, the slower you will move and the faster your stamina will drain. 
+- **Light Load:** Optimal for long-distance travel and combat mobility.
+- **Heavy Load:** You will experience noticeable slowdowns.
+- **Overloaded:** If you carry too much, you will be forced to walk or even become completely immobilized. Drop unnecessary items!
+
+### Terrain & Slopes
+Your environment directly impacts your energy levels:
+- **Surfaces:** Running on paved roads is highly efficient. Running through tall grass, deep snow, or wading through water will exhaust you quickly.
+- **Slopes:** Sprinting up a steep hill will drain your stamina in seconds. Plan your routes to avoid steep inclines if you are heavily geared.
+
+### Energy Drinks
+Keep an eye out for energy drinks (like MadBull or Pipsi). Consuming them will give you a temporary boost to your stamina recovery, which can be a lifesaver during a long trek or a firefight.
+
+---
+
+## Essential Survival Tools
+
+### The Metro Watch
+A true survivor needs to keep track of time and their environment. The **Metro Watch** is a highly sought-after piece of gear that provides crucial information at a glance.
+- **Time & Date:** Keep track of daylight hours so you aren't caught out in the dark.
+- **Environmental Data:** Some models can help you monitor your surroundings, making it an invaluable tool for navigating the harsh weather of DeerIsle.
+
+---
+
+## Character Skills
+
+As you survive and perform actions in the world, your character will learn and grow.
+
+
+
+*[Attach image: images/medical-interface.png here]*
+
+========================================
+
+=== POST 3 ===
+### Skill Progression
+You gain experience simply by playing the game. 
+- **Athletics & Strength:** Running, jumping, and carrying gear will slowly improve your physical capabilities.
+- **Metabolism & Immunity:** Eating, drinking, and fighting off diseases will make your body more resilient.
+- **Survival & Hunting:** Starting fires, skinning animals, and fishing will make you a master of the wilderness.
+- **Medicine:** Treating wounds and using medical supplies will make your treatments more effective.
+
+### Perks & Skill Books
+As you level up your skills, you will unlock powerful perks that grant permanent bonuses, such as reduced weapon sway, better disease resistance, or the ability to carry more weight. 
+You can also find **Skill Books** scattered across the world. Reading these will grant you a burst of experience in a specific skill tree.
+
+*Note: Your skills are persistent. You do not lose your hard-earned experience when you die!*
+
+---
+
+## Advanced Medicine
+
+A simple bandage won't fix everything anymore. The medical system is deep and requires specific treatments for specific injuries.
+
+### Types of Injuries
+- **Light Bleeds:** Minor cuts and scrapes. Can be treated with standard bandages or rags.
+- **Heavy Bleeds & Deep Wounds:** Caused by severe trauma. These require more advanced medical attention, sometimes even field surgery, before they can be properly bandaged.
+- **Bullet Wounds:** If you take a bullet, it might stay in your body. You will need a surgical kit to extract the bullet before the wound can fully heal.
+- **Fractures:** Falling from heights or taking heavy blunt damage can break your bones. You will need a splint and painkillers to keep moving.
+
+========================================
+
+=== POST 4 ===
+### Diseases & Infections
+- **Wound Infection:** Always use disinfected bandages! Using dirty rags will lead to sepsis, which requires strong antibiotics to cure.
+- **Zombie Virus:** Getting hit by infected carries a risk of contracting the zombie virus. Keep antiviral medication on hand.
+- **Food Poisoning:** Eating raw meat or drinking dirty water will make you violently ill. Charcoal tablets are your best friend.
+
+---
+
+## Radiation Zones
+
+Certain high-value military areas and key locations on DeerIsle are highly irradiated. Entering these zones unprepared is a death sentence.
+
+### The Geiger Counter
+Always carry a Geiger counter when exploring unknown territory. It will click and warn you when radiation levels are rising.
+
+### Protection
+To survive in a radiation zone, you need specialized gear:
+- **NBC Suits:** A full NBC suit (hood, jacket, pants, boots, and gloves) combined with a gas mask and filter will protect you from environmental radiation.
+- **Filters:** Gas mask filters degrade over time while in a radiation zone. Always bring spares!
+
+### Treatment
+If you absorb too much radiation, you will develop acute radiation sickness. This causes vomiting, blood loss, and eventually death. You must use specialized anti-radiation medication (like Rad-X or Potassium Iodide) to purge the radiation from your system.
+
+========================================
+

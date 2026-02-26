@@ -1,0 +1,116 @@
+=== POST 1 ===
+# Combat & Weapons
+
+Master the arsenal of Survivatorium. With an expanded selection of firearms, realistic ballistics, and deadly AI threats, you'll need to know your weapons to survive.
+
+---
+
+## The Arsenal
+
+Survivatorium features a massive variety of firearms, blending vanilla DayZ weapons with high-quality additions from the **Tactical Flava** and **DayZ Expansion** mods.
+
+### Weapon Categories
+- **Sidearms:** From basic Makarovs to high-capacity FN Five-seveNs and Desert Eagles. Perfect for backup or dealing with infected.
+- **Submachine Guns:** MP5s, P90s, and MP7s. Excellent for close-quarters combat and clearing buildings.
+- **Assault Rifles:** The backbone of any survivor's loadout. Choose from the reliable AK platform, versatile M4s, heavy-hitting SCARs, and more.
+- **Sniper & Marksman Rifles:** For those who prefer to engage from a distance. Includes classic bolt-actions like the Mosin and modern DMRs like the M110.
+- **Shotguns:** Devastating at close range. Ranging from double-barrel hunting shotguns to tactical semi-automatics like the Benelli M4.
+- **Heavy Weapons:** For when you absolutely need to destroy a target (or a base). Includes RPGs, LAWs, and grenade launchers.
+
+---
+
+## Weapon Customization
+
+A stock rifle is just the beginning. You can customize your firearms to suit your playstyle using a wide array of attachments.
+
+
+
+*[Attach image: images/weapon-attachment.png here]*
+
+========================================
+
+=== POST 2 ===
+### Optics
+Choose the right sight for the job:
+- **Red Dots & Holographics:** Fast target acquisition for close-to-medium range (e.g., EOTech, M68).
+- **Magnified Optics:** Versatile scopes for medium engagements (e.g., ACOG, HAMR).
+- **Sniper Scopes:** High-magnification optics for extreme long-range precision.
+- **Night Vision:** Specialized scopes for operating in the dark.
+
+### Suppressors & Muzzles
+- **Suppressors:** Reduce your acoustic signature to avoid drawing unwanted attention from infected or other players.
+- **Compensators:** Help manage recoil for faster follow-up shots.
+
+### Furniture
+Upgrade your weapon's handling and ergonomics by swapping out handguards, buttstocks, and pistol grips. Many Tactical Flava weapons offer extensive modularity, allowing you to build your perfect rifle.
+
+---
+
+## Real-World Ammo & Ballistics
+
+Survivatorium uses the **Real-World Ammo & Ballistics** mod, which significantly changes how firearms behave compared to vanilla DayZ.
+
+
+
+*[Attach image: images/ballistics-chart.png here]*
+
+========================================
+
+=== POST 3 ===
+### Key Features
+- **Authentic Calibers:** Weapons use their real-world ammunition types. Make sure you're loading the correct caliber!
+- **Realistic Trajectories:** Bullets experience realistic drop and wind drift over distance. You will need to learn how to zero your optics and compensate for bullet drop.
+- **Penetration & Damage:** Different calibers have different penetration values. A 5.56x45mm round will behave very differently against body armor than a 7.62x51mm round.
+- **Armor Matters:** High-tier plate carriers and helmets will save your life against smaller calibers, but heavy sniper rounds or armor-piercing ammunition can still punch through.
+
+---
+
+## Reputation & Gear Access
+
+Your standing on the server directly impacts the gear you can acquire.
+
+### The Reputation System
+As you complete quests, hunt dangerous animals, and eliminate hostile AI, you will earn **Reputation**. 
+- **Death Penalty:** Dying will cost you a significant amount of Reputation, so play carefully!
+
+### Unlocking the Good Stuff
+Traders won't sell their best gear to just anyone. 
+- **Basic Gear:** Common tools, civilian clothing, and low-tier weapons are available to everyone.
+- **Advanced Gear:** As your Reputation grows, you'll unlock access to military-grade firearms, high-end optics, and heavy armor.
+- **Top-Tier Loot:** The most exotic and devastating weapons require a very high Reputation score to purchase.
+
+---
+
+## AI Threats
+
+You aren't just fighting other players and infected. DeerIsle is populated by dangerous AI factions.
+
+### Hostile Mercenaries
+Heavily armed AI patrols guard key military installations and high-value loot zones. They use squad tactics, take cover, and will engage you on sight.
+
+========================================
+
+=== POST 4 ===
+### Patrol Helicopters
+Keep an eye on the sky. Heavily armed patrol helicopters occasionally sweep the island. If they spot you, they will open fire with devastating weaponry. Taking one down yields incredible rewards, but it requires heavy firepower and coordination.
+
+---
+
+## Trophies of War (Dogtags)
+
+When you engage in PvP and emerge victorious, you can claim a trophy to prove your skills.
+- **Collecting Dogtags:** When you kill another player, you can loot their Dogtag from their body.
+- **Secure Containers:** You can store these dogtags safely in specialized secure containers to ensure you don't lose your hard-earned trophies if you are killed on your way back to base.
+
+---
+
+## Combat Tips
+
+1. **Check Your Zero:** Always know what distance your optic is zeroed to before taking a shot.
+2. **Manage Your Stamina:** Don't drain your stamina right before a firefight. You need it to hold your breath for steady aiming.
+3. **Use Cover:** The AI is deadly accurate. Never stand in the open during a firefight.
+4. **Bring Medical Supplies:** Always carry bandages, blood bags, and morphine. A single bullet can cause heavy bleeding or unconsciousness.
+5. **Know When to Run:** If you're outgunned or pinned down by a patrol helicopter, sometimes the best tactic is to retreat and survive.
+
+========================================
+

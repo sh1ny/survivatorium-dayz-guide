@@ -1,0 +1,80 @@
+=== POST 1 ===
+# KeyRooms & Airdrops
+
+If you want the best gear on DeerIsle, you can't just scavenge through empty houses. You need to take risks. KeyRooms and Airdrops offer the highest tier loot, but they are highly contested.
+
+---
+
+## KeyRooms
+
+Scattered across the map are secure rooms and vaults locked behind heavy doors. To get inside, you need the right key.
+
+### How It Works
+1. **Find a Key:** Keys and keycards are rare drops found on infected, in military zones, or sometimes sold by specialized traders.
+2. **Locate the Room:** You'll need to explore to find where these keys belong. Some are hidden in plain sight in cities, while others are buried deep in military bunkers.
+3. **Unlock:** Approach the locked door or keypad with the key in your hand to unlock it.
+4. **Loot Fast:** Grab what you can. The door will automatically lock behind you after a set time, and you don't want to be trapped inside!
+
+*Warning: Do not exit-camp keycard vaults (like the KMUC, Temple, or Crypt) for longer than 15 minutes, and never trap players inside vaults using locks or buildables. This violates server rules.*
+
+---
+
+## Finding Keys
+
+Keys are color-coded to give you a hint about where they might be used:
+- **Grey Keys:** Typically unlock secure rooms located within major **Cities**.
+- **Green Keys:** Usually open stashes hidden in **Camps** and rural areas.
+- *(There are many more key types and colors to discover as you explore the island!)*
+
+
+
+*[Attach image: images/keycard-example.png here]*
+
+========================================
+
+=== POST 2 ===
+---
+
+## KeyRoom Loot
+
+The risk is worth the reward. KeyRooms contain curated loot that is significantly better than what you'll find lying around in the open.
+
+### What to Expect
+- **Weapons:** Depending on the room, you might find anything from reliable starter submachine guns to devastating, high-tier military sniper rifles.
+- **Medical Supplies:** Secure medical rooms contain advanced trauma kits, blood bags, and crucial anti-radiation medication.
+- **Tactical Gear:** You can find high-end clothing and armor, including advanced Crye G3 suits, heavy plate carriers, and specialized arctic gear for surviving the cold.
+
+---
+
+## Airdrops
+
+Airdrops are dynamic, server-wide events that deliver massive crates of high-value loot to random locations.
+
+### Mechanics
+- **The Alert:** A server-wide notification will warn all players when an airdrop is incoming.
+- **The Drop:** Look to the sky for the transport plane. It will drop a large crate via parachute. Once it lands, a smoke flare will mark the exact location.
+- **The Danger:** Airdrops are a beacon for every geared player on the server. Approach with extreme caution, as they are highly contested PvP hotspots.
+
+
+
+*[Attach image: images/airdrop-crate.png here]*
+
+========================================
+
+=== POST 3 ===
+---
+
+## Airdrop Loot
+
+If you manage to secure an airdrop and survive, you will be heavily rewarded. The crates contain exclusive items that are incredibly difficult to find anywhere else.
+
+### The Haul
+- **Base Building:** Rare materials, heavy tools, and sometimes even breaching charges or explosives.
+- **Advanced Weaponry:** Fully kitted assault rifles, rare attachments, and heavy machine guns.
+- **Top-Tier Armor:** The best helmets and plate carriers available.
+- **Cash:** Large stacks of Hryvnia to fund your next expedition.
+
+*Tip: Don't get greedy. Grab the most valuable items and get out before another squad arrives to contest the drop!*
+
+========================================
+

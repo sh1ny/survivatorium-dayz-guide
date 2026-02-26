@@ -1,0 +1,196 @@
+=== POST 1 ===
+# Getting Started
+
+Welcome to Survivatorium on DeerIsle. This guide covers everything you need to know for your first steps on the server.
+
+---
+
+## Server Rules
+
+### General Conduct
+- **1.1** No insults, discrimination, extremist, or racist statements - immediate ban
+- **1.2** Staff decisions are final; appeal via Discord tickets only
+- **1.3** No toxic behavior or excessive provocation in chat/voice
+- **1.4** No cheats, scripts, or third-party programs - permanent ban
+
+### DeerIsle Questing
+- **2.1** No exit-camping keycard vaults (KMUC, Temple, Crypt) for longer than 15 minutes
+- **2.2** No trapping players inside vaults using locks or buildables
+- **2.3** Do not block keycard readers with vehicles or items
+
+### Base Building
+- **3.1** No building within 500m of Military areas, Hospitals, Quest Entrances, or Mount Sage
+- **3.2** Bases must be realistic - no floating/sky bases
+- **3.3** Do not block public roads, bridges, or water wells
+- **3.4** Maximum 2 bases per faction/group
+
+### Combat & Raiding
+- **4.1** **100% KOS map** - there are no safezones
+- **4.2** **No Combat Logging** - wait 5 minutes after any engagement before logging out
+- **4.3** **No Grief Raiding** - take what you need, don't destroy bases out of spite
+- **4.4** No wall-glitching, emote-peeking, or body-stacking to bypass defenses
+
+
+
+*[Attach image: images/spawn-location.png here]*
+
+========================================
+
+=== POST 2 ===
+---
+
+## Required Mods
+
+The server uses a carefully curated modpack to enhance the survival experience. You can find all the required mods in our Steam Workshop collection.
+
+### Core Features
+- **DayZ Expansion:** Overhauls many core mechanics, including the quest system, market, and territories.
+- **BaseBuildingPlus:** Provides extensive options for constructing your perfect base.
+- **Custom Survival Mechanics:** Enhanced medical, radiation, and skill systems to deepen the survival experience.
+
+### Gameplay Enhancements
+- **KeyRooms & Hacked Crates:** High-risk, high-reward loot locations scattered across the map.
+- **Patrol Helicopters:** Dynamic AI threats that patrol the skies.
+- **Advanced Stamina:** A reworked stamina system where your loadout weight and the terrain significantly impact your movement.
+- **Breaching Charges:** Specialized explosives used for raiding enemy bases.
+
+### Weapons & Gear
+- **Tactical Flava & Forward Operator Gear:** A massive arsenal of high-quality firearms, attachments, and tactical clothing.
+- **Real-World Ammo & Ballistics:** Authentic ammunition types and realistic ballistic trajectories.
+- **MMG Storage:** Visually distinct and high-capacity storage solutions for your base.
+
+### Installation
+1. Subscribe to the Survivatorium mod collection on the Steam Workshop.
+2. Launch DayZ and let the launcher download all required mods.
+3. Join the server via the server browser or direct connect.
+
+---
+
+## First Spawn
+
+When you first wake up on the shores of DeerIsle:
+
+1. **Orientation Quest** - You'll receive an automatic quest directing you to find the main Quest Board.
+2. **Starting Gear** - You begin with basic civilian clothing and a small amount of Hryvnia (the local currency) to get you started.
+3. **Location** - You'll spawn near one of the coastal towns, giving you a chance to scavenge before heading inland.
+
+========================================
+
+=== POST 3 ===
+*[Attach image: images/hud-overview.png here]*
+
+========================================
+
+=== POST 4 ===
+### Spawn Areas
+DeerIsle has multiple spawn points along the coast. Common starting locations include:
+- Coastal towns
+- Near the main roads
+- Close to water sources
+
+---
+
+## The HUD
+
+The server features an enhanced HUD to help you monitor your vital stats:
+
+### Core Indicators
+- **Health & Blood** - Keep an eye on your overall condition.
+- **Stamina Bar** - Shows your current energy level for sprinting and melee attacks.
+- **Hunger & Thirst** - Essential survival indicators. Don't let these drop too low!
+- **Temperature** - Monitor your body heat to avoid freezing or overheating.
+
+### Specialized Indicators
+- **Radiation Warning** - A distinct warning will appear when you enter irradiated zones. Make sure you have the proper protective gear!
+- **Skill Progress** - Notifications will pop up as you level up your various survival skills.
+
+### Advanced Stamina
+The stamina system is heavily influenced by your gear:
+- **Weight Matters:** Carrying heavy loads will significantly reduce your maximum stamina and increase drain.
+- **Terrain Impact:** Running uphill or through difficult terrain (like swamps or deep snow) will exhaust you much faster than running on a paved road.
+
+---
+
+## Your First Steps
+
+### Step 1: Find Water and Food
+- Look for water pumps in towns.
+- Search residential houses and greenhouses for canned food or fresh produce.
+- If you find a knife, you can hunt small animals or chickens for meat.
+
+### Step 2: Arm Yourself
+- Check houses and sheds for basic melee weapons like pipes, bats, or axes.
+- You might find a basic civilian firearm, but ammunition will be scarce early on.
+- Avoid military areas until you have a reliable weapon and some medical supplies.
+
+### Step 3: Locate the Quest Board
+
+
+*[Attach image: images/quest-board.png here]*
+
+========================================
+
+=== POST 5 ===
+The Quest Board is your central hub for progression. Here you can:
+- Accept new quests.
+- Progress through various storylines.
+- Earn Hryvnia to spend at the market.
+
+### Step 4: Complete the Orientation Quest
+- Follow the marker to the Quest Board.
+- Interact with the board to complete your first quest and claim your reward.
+- Pick up your next assignment to continue your journey.
+
+---
+
+## Essential Keybinds
+
+- **Inventory** (Default Key: TAB)
+- **Interact** (Default Key: F)
+- **Crafting Menu** (Default Key: F9)
+- **Voice Chat** (Default Key: CAPSLOCK)
+
+*Note: Check your keybindings in the options menu to customize your controls, especially for modded features like the quest log or market interface.*
+
+---
+
+## Inventory Management (Quality of Life)
+
+To make surviving a little less tedious, the server includes several Quality of Life (QoL) mods to help you manage your gear:
+
+### Better Inspect
+Never guess which magazine fits your gun again!
+- **How it works:** Hover over an item in your inventory and press **B** (default key).
+- **Color Coding:** Items of the exact same type will highlight in **Orange**. Items that are compatible (like the correct ammo or attachments for a weapon) will highlight in **Yellow**.
+
+### Hover Loot
+Quickly grab loot off the ground or dump unwanted items without dragging and dropping.
+- **Quick Loot:** Hover over an item on the ground and hold **H** to instantly move it to your inventory.
+- **Quick Drop:** Hover over an item in your inventory and press **SHIFT + H** to instantly drop it on the ground.
+- **Quick Store:** Hover over an item in your inventory and hold **H** to move it into the first available storage container on the ground (like a tent or barrel).
+
+---
+
+## Tips for New Players
+
+========================================
+
+=== POST 6 ===
+1. **Trust no one** - The map is 100% KOS (Kill on Sight). Always be on your guard.
+2. **Stay hydrated** - Clean water is essential. Purify water from ponds or streams if you can't find a well.
+3. **Travel light** - Don't hoard every item you find. Manage your weight to maintain your stamina and mobility.
+4. **Learn the map** - Knowing the layout of DeerIsle, including key landmarks and military zones, will save your life.
+5. **Use the market** - Sell excess loot to traders to earn Hryvnia for the gear you actually need.
+6. **Join a group** - Survival is easier with friends. You can form a group and claim a territory together.
+
+---
+
+## Next Steps
+
+Ready to learn more? Check out:
+- Base Building - Establish your foothold
+- Quests & Traders - Start earning currency
+- Survival Systems - Master the elements
+
+========================================
+

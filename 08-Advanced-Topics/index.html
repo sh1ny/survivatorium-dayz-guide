@@ -1,0 +1,963 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="DayZ Survivatorium server guide">
+      
+      
+      
+        <link rel="canonical" href="https://sh1ny.github.io/survivatorium-dayz-guide/08-Advanced-Topics/">
+      
+      
+        <link rel="prev" href="../07-KeyRooms-Airdrops/">
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.3">
+    
+    
+      
+        <title>Advanced Topics - Survivatorium Player Guide</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="green">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#advanced-topics" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Survivatorium Player Guide" class="md-header__button md-logo" aria-label="Survivatorium Player Guide" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Survivatorium Player Guide
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Advanced Topics
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Survivatorium Player Guide" class="md-nav__button md-logo" aria-label="Survivatorium Player Guide" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Survivatorium Player Guide
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01-Getting-Started/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting Started
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02-Base-Building/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Base Building
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../03-Quests-Traders/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quests & Traders
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04-Combat-Weapons/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Combat & Weapons
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05-Survival-Systems/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Survival Systems
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06-Vehicles/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vehicles
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../07-KeyRooms-Airdrops/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    KeyRooms & Airdrops
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Advanced Topics
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Advanced Topics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#table-of-contents" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Table of Contents
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reputation-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reputation System
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Reputation System">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#earning-reputation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Earning Reputation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#losing-reputation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Losing Reputation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reputation-benefits" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reputation Benefits
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#player-to-player-p2p-market" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Player-to-Player (P2P) Market
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Player-to-Player (P2P) Market">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-to-use-the-p2p-market" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to Use the P2P Market
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#p2p-trading-tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        P2P Trading Tips
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#personal-storage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Personal Storage
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Personal Storage">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mmg-storage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MMG Storage
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#secure-storage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Secure Storage
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#storage-limits" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Storage Limits
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#table-of-contents" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Table of Contents
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reputation-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reputation System
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Reputation System">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#earning-reputation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Earning Reputation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#losing-reputation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Losing Reputation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reputation-benefits" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reputation Benefits
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#player-to-player-p2p-market" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Player-to-Player (P2P) Market
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Player-to-Player (P2P) Market">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-to-use-the-p2p-market" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to Use the P2P Market
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#p2p-trading-tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        P2P Trading Tips
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#personal-storage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Personal Storage
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Personal Storage">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mmg-storage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MMG Storage
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#secure-storage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Secure Storage
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#storage-limits" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Storage Limits
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="advanced-topics">Advanced Topics<a class="headerlink" href="#advanced-topics" title="Permanent link">&para;</a></h1>
+<p>Once you've mastered the basics of survival, it's time to look at the deeper mechanics of Survivatorium. This guide covers the Reputation system, Player-to-Player trading, and advanced storage solutions.</p>
+<h2 id="table-of-contents">Table of Contents<a class="headerlink" href="#table-of-contents" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="#reputation-system">Reputation System</a></li>
+<li><a href="#player-to-player-p2p-market">Player-to-Player (P2P) Market</a></li>
+<li><a href="#personal-storage">Personal Storage</a></li>
+</ul>
+<hr />
+<h2 id="reputation-system">Reputation System<a class="headerlink" href="#reputation-system" title="Permanent link">&para;</a></h2>
+<p>Your Reputation is a measure of your standing on the server. It is a crucial metric that dictates what you can buy and what missions you can undertake.</p>
+<h3 id="earning-reputation">Earning Reputation<a class="headerlink" href="#earning-reputation" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Completing Quests:</strong> The primary and most reliable way to earn Reputation. Higher-tier quests reward more points.</li>
+<li><strong>Killing Threats:</strong> Eliminating infected, dangerous wildlife, and hostile AI mercenaries will slowly build your standing.</li>
+<li><strong>Events:</strong> Participating in server events or securing airdrops can also boost your Reputation.</li>
+</ul>
+<h3 id="losing-reputation">Losing Reputation<a class="headerlink" href="#losing-reputation" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Death:</strong> Dying incurs a massive Reputation penalty. This makes survival absolutely crucial for progression. If you die frequently, you will find yourself locked out of high-tier gear.</li>
+<li><strong>Failing Quests:</strong> Some quests may penalize you for failure or abandonment.</li>
+</ul>
+<h3 id="reputation-benefits">Reputation Benefits<a class="headerlink" href="#reputation-benefits" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Quest Unlocks:</strong> Many advanced questlines (like Threat Intelligence or Field Validation) require a minimum Reputation score before the NPC will even speak to you.</li>
+<li><strong>Trader Access:</strong> Traders reserve their best weapons, armor, and vehicles for reputable players. If your Reputation is too low, you won't be able to purchase high-end military gear.</li>
+</ul>
+<p><img alt="Reputation Interface" src="../images/reputation-interface.png" /></p>
+<hr />
+<h2 id="player-to-player-p2p-market">Player-to-Player (P2P) Market<a class="headerlink" href="#player-to-player-p2p-market" title="Permanent link">&para;</a></h2>
+<p>The P2P Market allows players to trade items directly with each other, bypassing the NPC traders and setting their own prices.</p>
+<h3 id="how-to-use-the-p2p-market">How to Use the P2P Market<a class="headerlink" href="#how-to-use-the-p2p-market" title="Permanent link">&para;</a></h3>
+<ol>
+<li><strong>Access the Market:</strong> Locate a P2P Market terminal (often found in safe zones or major trader hubs).</li>
+<li><strong>List an Item:</strong> Select an item from your inventory, set your asking price in <strong>Hryvnia</strong>, and list it on the market.</li>
+<li><strong>Buy an Item:</strong> Browse the listings from other players. If you have enough Hryvnia, you can purchase the item instantly, even if the seller is offline.</li>
+<li><strong>Collect Earnings:</strong> When your item sells, the Hryvnia is deposited into your account or can be collected from the market terminal.</li>
+</ol>
+<h3 id="p2p-trading-tips">P2P Trading Tips<a class="headerlink" href="#p2p-trading-tips" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Supply and Demand:</strong> Check the NPC trader prices before listing. If an item is rare or out of stock at the NPC, you can charge a premium.</li>
+<li><strong>Undercutting:</strong> To sell quickly, price your items slightly lower than the competition.</li>
+<li><strong>Bulk Sales:</strong> Selling items in bulk (e.g., stacks of ammo, building materials, or medical supplies) is often more attractive to buyers.</li>
+</ul>
+<hr />
+<h2 id="personal-storage">Personal Storage<a class="headerlink" href="#personal-storage" title="Permanent link">&para;</a></h2>
+<p>Managing your loot is a critical part of survival. Survivatorium offers several advanced storage options beyond the standard DayZ tents and barrels.</p>
+<h3 id="mmg-storage">MMG Storage<a class="headerlink" href="#mmg-storage" title="Permanent link">&para;</a></h3>
+<p>The server uses the <strong>MMG Storage</strong> mod, which provides a variety of high-capacity, visually distinct storage containers to organize your base.</p>
+<ul>
+<li><strong>Gun Racks:</strong> Display and store your firearms efficiently.</li>
+<li><strong>Gear Stands:</strong> Store clothing, armor, and backpacks so they are ready to grab after a death.</li>
+<li><strong>Lockers &amp; Crates:</strong> High-capacity storage for general items, building supplies, and medical gear.</li>
+</ul>
+<h3 id="secure-storage">Secure Storage<a class="headerlink" href="#secure-storage" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Code Locks:</strong> You can attach Code Locks to tents, barrels, and MMG storage containers to secure your loot from thieves. Even if someone breaches your base walls, they will still need to crack your containers.</li>
+<li><strong>Territory Protection:</strong> Items stored within your claimed territory are protected by your base's defenses, but remember that bases can be raided!</li>
+</ul>
+<h3 id="storage-limits">Storage Limits<a class="headerlink" href="#storage-limits" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Be mindful of server performance. While there are no strict limits on the number of storage containers you can have, excessive hoarding in a single area can cause lag for you and your neighbors.</li>
+</ul>
+<p><img alt="MMG Storage Example" src="../images/mmg-storage.png" /></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.sections", "navigation.top", "search.suggest", "search.highlight"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
