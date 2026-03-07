@@ -1,0 +1,174 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🧭  SURVIVATORIUM — SERVER INFO
+    Map: DeerIsle  |  Slots: 70  |  Mode: Full PvP / KOS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🖥️  IP:Port  —  135.125.189.26:2302
+💬  Discord  —  https://discord.gg/Fr5YxeQKEv
+🔄  Restarts —  Every 4 hours
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+⚔️  SERVER OVERVIEW
+━━━━━━━━━━━━━━━━━━━━━━━━━
+▸ Setting         : 100% PvP — Kill on Sight, no safezones
+▸ Currency        : Hryvnia
+▸ Loot Rarity     : 8 tiers — Poor / Common / Uncommon / Rare / Epic / Legendary / Mythic / Exotic
+▸ Military armor  : NOT sold at traders — Airdrops, KeyRooms & Hacked Crates only
+▸ High-grade ammo : NOT sold at traders — loot or craft at Workbench only
+▸ Top-tier gear   : Reputation-gated (see Skills & Rep section)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+🏗️  BASE BUILDING  (BaseBuildingPlus)
+━━━━━━━━━━━━━━━━━━━━━━━━━
+▸ Tiers               : Wood → Concrete → Metal
+▸ Territory Radius    : 60 metres
+▸ Max per territory   : 5 members
+▸ Max bases per group : 2
+▸ Raids               : 24/7 — NO offline protection
+▸ Breaching Charges   : Required to destroy walls & doors
+▸ Propane Torch       : Cracks safes/containers — 10 minutes each
+▸ Restrictions        : No build within 500m of Military areas, Hospitals, or Quest entrances
+                        | No floating/sky bases
+                        | No blocking roads, bridges, or water wells
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+🚗  VEHICLES
+━━━━━━━━━━━━━━━━━━━━━━━━━
+▸ Types       : Civilian cars & off-roaders, Transport trucks/buses, Military Vodnik (armored),
+                Zodiac & Utility Boats, Helicopters — MH-6 Little Bird / Merlin / Huey
+▸ Key required: Yes — Blank & Master Keys sold at traders
+▸ Lockpicking : 40% success chance — 120 seconds fully exposed
+▸ Towing      : Enabled
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+🛒  TRADERS  (Waldoboro — south-eastern end)
+━━━━━━━━━━━━━━━━━━━━━━━━━
+▸ Sells       : Weapons & ammo (civilian tier), attachments, civilian clothing,
+                medical supplies, base materials, vehicles, blank & master keys
+▸ DOES NOT sell: Military clothing, plate carriers, helmets, high-grade ammo, explosives
+▸ P2P Market  : Player terminals — list items at custom prices, buy while seller is offline
+▸ Advanced stock: Requires Reputation standing — top-tier needs very high Reputation
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+🚁  AIRDROPS & KEYROOMS
+━━━━━━━━━━━━━━━━━━━━━━━━━
+AIRDROPS
+▸ Server-wide alert on incoming drop — plane visible in sky — smoke flare marks landing zone
+▸ Loot: Breaching charges, fully-kitted ARs, best-in-slot armor, heavy Hryvnia cash
+
+KEY ROOMS
+▸ Named vaults : KMUC · Temple · Crypt
+▸ Grey Keys    → secure rooms in major Cities
+▸ Green Keys   → stashes in Camps & rural areas
+▸ Keys drop from infected, military zones, or specialized traders
+▸ Doors auto-lock after a set time
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+📋  QUESTS
+━━━━━━━━━━━━━━━━━━━━━━━━━
+▸ Questlines   : Orientation (first login) · Medical Support · Hunting Contracts · Supply Runs
+                  Threat Intelligence · Field Validation · Mopping Up (PvP) · VIP Escort · Treasure Hunt
+▸ First login  : 500 Hryvnia (Orientation Quest, auto-assigned on spawn)
+▸ ⚠ Death-canceling: Mopping Up & Field Validation cancel/reset on death — high stakes
+▸ Mopping Up   : PvP kill contracts — requires proven Reputation standing to unlock
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+📈  SKILLS & REPUTATION
+━━━━━━━━━━━━━━━━━━━━━━━━━
+9 SKILL TREES — fully persistent through death (small XP penalty, never reset to zero)
+  🛡 Immunity   🍎 Metabolism   💉 Medicine    🏃 Athletics   💪 Strength
+  🕶 Stealth    🌲 Survival     🦌 Hunting      🎣 Fishing
+
+▸ Skill Books   : Found in the world — grant burst XP in associated tree
+
+REPUTATION
+▸ Maximum      : 16,000
+▸ Death penalty: -250 per death
+▸ Earned from  : Quests, kills, events, securing Airdrops
+▸ Gates        : High-tier quests (Mopping Up) & advanced/top-tier trader stock
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+☢️  SURVIVAL SYSTEMS
+━━━━━━━━━━━━━━━━━━━━━━━━━
+RADIATION
+▸ Full 6-piece NBC suit required — Gas Mask is the most critical (41.67% of total protection)
+▸ Clothing & inventory items accumulate contamination — decontaminate before storing
+▸ Buildable Radiation Decontamination Shower available at base
+
+STAMINA
+▸ Two bars: White (sprint) + Yellow (long-term endurance — affected by weight & terrain)
+▸ Overload threshold: 105 kg · Energy drinks provide temporary recovery
+
+PSIONIC ZONES
+▸ Psychoactive hazard areas — cause mental health deterioration
+▸ PSI Helmet required for protection
+
+MEDICINE
+▸ Forms  : Tablets (multi-dose) · Ampoules (require syringe) · Injectors (single-use)
+▸ Tiers  : Weak / Normal / Strong — match tier to illness severity
+▸ ⚠ Overdose system — do not stack the same medicines
+
+ARMOR — 5 TIERS
+▸ T1 🟤 Load-bearing only (no armor)
+▸ T2 🟡 Soft armor — handgun rated
+▸ T3 🟠 Light plate carrier — rifle rated (5.56 / 7.62)
+▸ T4 🔴 Heavy plate carrier — AP round rated
+▸ T5 🟥 Full military coverage
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+📜  RULES  (SUMMARY)
+━━━━━━━━━━━━━━━━━━━━━━━━━
+Full rules displayed on every login.
+
+🚫 ZERO TOLERANCE — INSTANT / PERMANENT BAN
+▸ No cheats, scripts, or third-party programs
+▸ No racism, discrimination, or extremist content
+
+⚔️ COMBAT
+▸ 100% KOS — no safezones anywhere
+▸ No combat logging — wait 5 minutes after engagement before logging off
+▸ No wall-glitching, emote-peeking, or body-stacking
+▸ No grief raiding — take what you need, do not destroy out of spite
+
+🏗️ BASE
+▸ No build within 500m of Military areas, Hospitals, or Quest entrances
+▸ Maximum 2 bases per group
+▸ No floating/sky bases · No blocking public roads, bridges, or water wells
+
+🗝️ QUEST & KEYROOM
+▸ No exit-camping KeyRoom vaults (KMUC, Temple, Crypt) for longer than 15 minutes
+▸ Do not trap players inside vaults using locks or buildable objects
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+🧩  KEY MODS
+━━━━━━━━━━━━━━━━━━━━━━━━━
+Core Systems    : DayZ Expansion Bundle · BaseBuildingPlus (BBP) · Terje Core · Terje StartScreen
+Medical/Survival: Terje Medicine · Terje Radiation · Terje Skills · InediaStamina
+Weapons & Gear  : Tactical Flava · Forward Operator Gear (FOG) · Real-World Ammo & Ballistics
+Raids & Loot    : Breachingcharge · BS KeyRoom · BS HackedCrate · BS Patrol Helicopter
+QoL & Storage   : Code Lock · MMG Storage · zm Workbench · Dogtags · Hover Loot
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+🟢  BEGINNER TIPS
+━━━━━━━━━━━━━━━━━━━━━━━━━
+1. Do the Orientation Quest first — auto-assigned on spawn, reward: 500 Hryvnia
+2. Get a full NBC suit before entering any radiation zone — all 6 pieces needed, no shortcuts
+3. Press B while hovering an item to highlight compatible (yellow) and same-type (orange) items
+4. Lock your vehicle every time — lockpicking exists and it will be attempted on you
+5. Hunt for Skill Books in the world — prioritize Athletics and Immunity early
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+📖  FULL PLAYER GUIDE
+━━━━━━━━━━━━━━━━━━━━━━━━━
+🔗  https://sh1ny.github.io/survivatorium-dayz-guide/
+
+  🚀 Getting Started  →  https://sh1ny.github.io/survivatorium-dayz-guide/01-Getting-Started/
+  🏗️ Base Building    →  https://sh1ny.github.io/survivatorium-dayz-guide/02-Base-Building/
+  📋 Quests & Traders →  https://sh1ny.github.io/survivatorium-dayz-guide/03-Quests-Traders/
+  ⚔️ Combat & Weapons →  https://sh1ny.github.io/survivatorium-dayz-guide/04-Combat-Weapons/
+  ☢️ Survival Systems →  https://sh1ny.github.io/survivatorium-dayz-guide/05-Survival-Systems/
+  🚗 Vehicles         →  https://sh1ny.github.io/survivatorium-dayz-guide/06-Vehicles/
+  🗝️ KeyRooms & Airdrops → https://sh1ny.github.io/survivatorium-dayz-guide/07-KeyRooms-Airdrops/
+  🔬 Advanced Topics  →  https://sh1ny.github.io/survivatorium-dayz-guide/08-Advanced-Topics/
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

@@ -18,9 +18,9 @@ Survivatorium features a realistic stamina system that forces you to think caref
 === POST 2 ===
 ### Two Stamina Bars (Important)
 - **White bar:** Short-burst vanilla stamina for immediate actions.
-- **Yellow bar:** Inedia general stamina (long-term endurance).
+- **Yellow bar:** Long-term endurance stamina (affected by weight, terrain, and heat).
 
-On this server, Inedia stamina is active, while Inedia's own sleep stamina is disabled. Your sleep/fatigue gameplay comes from the Terje medicine system instead.
+On this server, the long-term stamina system (the yellow bar) is active, while sleep/fatigue is handled through the advanced medicine system.
 
 ### Weight Matters
 The more gear you carry, the slower you will move and the faster your stamina will drain. 
@@ -34,7 +34,7 @@ Your environment directly impacts your energy levels:
 - **Slopes:** Sprinting up a steep hill will drain your stamina in seconds. Plan your routes to avoid steep inclines if you are heavily geared.
 
 ### How This Server Is Tuned
-- **More forgiving than default Inedia:** Sprint/jog drain is reduced compared to stock wiki values, so players can stay active longer in PvP and movement-heavy fights.
+- **More forgiving than stock:** Sprint/jog drain is reduced compared to default values, so players can stay active longer in PvP and movement-heavy fights.
 - **Low/Critical thresholds:** Debuffs begin at roughly low yellow stamina, and become severe at critical yellow stamina.
 - **Heat still matters:** Overheating increases stamina consumption, so temperature management is still part of movement planning.
 
@@ -57,7 +57,267 @@ A true survivor needs to keep track of time and their environment. The **Metro W
 
 ## Character Skills
 
-As you survive and perform actions in the world, your character will learn and grow.
+Your character grows more capable the longer you survive. Nine skill trees cover every aspect of survival — your actions in the world directly determine how your character develops. Each skill tree has a **passive modifier** that improves automatically as you level up, plus a set of unlockable **perks** that grant targeted bonuses.
+
+> **Skill Books** can be found across the world. Reading one grants a burst of experience in its associated skill tree.
+
+> **Your skills are persistent — you do not lose them when you die.** A small amount of experience may be reduced on death, but you never start from zero.
+
+---
+
+### 🛡️ Immunity
+
+**How to level:** Treat illnesses and recover from diseases, viruses, and infections.
+
+**Passive bonus:** Each level reduces your chance of getting sick and speeds up illness recovery.
+
+========================================
+
+=== POST 4 ===
+- <img src="../images/perks/tp_coldresist.png" width="22" style="vertical-align:middle"> **Influenza Resistance** — Your body copes better with the cold virus, slowing the infection progress and giving you more time for treatment.
+- <img src="../images/perks/tp_poisonresist.png" width="22" style="vertical-align:middle"> **Poisoning Resistance** — Your body has increased resistance to food poisoning.
+- <img src="../images/perks/tp_hematomarecovery.png" width="22" style="vertical-align:middle"> **Bruises Recovery** — Your bruises heal faster due to the body's improved ability to regenerate.
+- <img src="../images/perks/tp_woundhealing.png" width="22" style="vertical-align:middle"> **Wounds Healing** — Your wounds heal faster thanks to improved tissue regeneration.
+- <img src="../images/perks/tp_intoxicresist.png" width="22" style="vertical-align:middle"> **Intoxication Resistance** — Your body has adapted to the effects of medications, which allows it to remove overdosing faster and minimize negative effects.
+- <img src="../images/perks/tp_fastsleep.png" width="22" style="vertical-align:middle"> **Fast Sleep** — It takes you less time to get a full sleep and rest.
+- <img src="../images/perks/tp_ironmind.png" width="22" style="vertical-align:middle"> **Iron Mind** — Your psyche has become stronger and accustomed to the horrors of the apocalypse and stressful survival situations, which makes you less prone to panic and mental disorders.
+- <img src="../images/perks/tp_recoveryshock.png" width="22" style="vertical-align:middle"> **Shock Recovery** — Your body has learned to get out of shock states and comas easier and faster.
+- <img src="../images/perks/tp_impactresist.png" width="22" style="vertical-align:middle"> **Fighter** — Your body has become more resistant to physical damage.
+- <img src="../images/perks/tp_durableleather.png" width="22" style="vertical-align:middle"> **Iron Skin** — Your body has adapted to mechanical damage, so you get fewer cuts.
+- <img src="../images/perks/tp_reszmbvirus.png" width="22" style="vertical-align:middle"> **Zombie Virus Resistance** — Your body has developed unique defense mechanisms to counteract the zombie virus.
+- <img src="../images/perks/tp_resistsepsis.png" width="22" style="vertical-align:middle"> **Sepsis Resistance** — Your body has adapted to the effects of infections, which allows it to deal with blood poisoning more effectively.
+- <img src="../images/perks/tp_feetwarm.png" width="22" style="vertical-align:middle"> **Warm Feets** — Your body uses warmth and comfort to fight colds.
+- <img src="../images/perks/tp_thermoregulation.png" width="22" style="vertical-align:middle"> **Thermoregulation** — Your body has adapted to hard environmental conditions, which reduces the impact of low and high temperatures on your body.
+- <img src="../images/perks/tp_safelaunch.png" width="22" style="vertical-align:middle"> **Strong Stomach** — Your stomach has a strong and aggressive microflora, which significantly reduces the risk of poisoning with spoiled food.
+- <img src="../images/perks/tp_quickhealing.png" width="22" style="vertical-align:middle"> **Quick Healing** — Your body has outstanding recovery abilities, which allows you to recover health points much faster.
+- <img src="../images/perks/tp_bloodregen.png" width="22" style="vertical-align:middle"> **Blood Regeneration** — Your body has learned to restore blood in the body faster after serious blood loss.
+- <img src="../images/perks/tp_thickblood.png" width="22" style="vertical-align:middle"> **Thick Blood** — Due to the increased viscosity of the blood, blood loss occurs more slowly, which gives you more time to stabilize your condition and apply medical care.
+- <img src="../images/perks/tp_rabiesres.png" width="22" style="vertical-align:middle"> **Rabies Resistance** — Your strong immune system better resists the rabies in your body, as a result of which the course of the disease is slower and gives you more time to find a cure.
+- <img src="../images/perks/tp_lowpaintr.png" width="22" style="vertical-align:middle"> **High pain threshold** — Your body tolerates pain better, which reduces the pain level by 1 unit.
+- <img src="../images/perks/tp_radiationresist.png" width="22" style="vertical-align:middle"> **Chemical poisoning resistance** — Your body has an increased resistance to chemical and biohazard agents.
+- <img src="../images/perks/tp_radiationregen.png" width="22" style="vertical-align:middle"> **Radiation Regeneration** — Your body recovers from radiation exposure faster after leaving a contaminated zone.
+
+========================================
+
+=== POST 5 ===
+---
+
+### 🍎 Metabolism
+
+**How to level:** Eat food and drink water regularly.
+
+**Passive bonus:** Each level reduces your calorie and water consumption.
+
+========================================
+
+=== POST 6 ===
+- <img src="../images/perks/tp_incrcalorie.png" width="22" style="vertical-align:middle"> **Increased calorie content** — Your body has learned to digest food better, extracting more energy from it.
+- <img src="../images/perks/tp_incrhydration.png" width="22" style="vertical-align:middle"> **Increased Hydration** — Your body has optimized the process of water absorption, allowing you to extract more benefits from each serving of liquid.
+- <img src="../images/perks/tp_energysaving.png" width="22" style="vertical-align:middle"> **Energy Saving** — Your body has learned to expend energy efficiently at rest, which significantly reduces overall energy costs when you are not actively moving.
+- <img src="../images/perks/tp_watersaving.png" width="22" style="vertical-align:middle"> **Saving Water** — Your body has adapted to the minimum consumption of water at rest, which allows you to go longer without drinking when you are inactive.
+- <img src="../images/perks/tp_enregycontain.png" width="22" style="vertical-align:middle"> **Energy Containment** — Your body has optimized energy consumption both when walking and jogging.
+- <img src="../images/perks/tp_watercontain.png" width="22" style="vertical-align:middle"> **Water Containment** — Your body has learned to effectively maintain its water balance both when walking calmly and when jogging intensively.
+- <img src="../images/perks/tp_resistwater.png" width="22" style="vertical-align:middle"> **Thirst Resistance** — You have learned how to fight thirst and suffer less from dehydration.
+- <img src="../images/perks/tp_resisthunger.png" width="22" style="vertical-align:middle"> **Hunger Resistance** — Your body is used to a lack of food and spends energy more economically.
+- <img src="../images/perks/tp_energycontrol.png" width="22" style="vertical-align:middle"> **Energy Control** — Your body has become more efficient at managing energy while running, which allows you to spend less energy on each movement.
+- <img src="../images/perks/tp_hydrationcontrol.png" width="22" style="vertical-align:middle"> **Hydration Control** — Your body has learned to effectively manage the water balance even with intense physical exertion.
+- <img src="../images/perks/tp_energycold.png" width="22" style="vertical-align:middle"> **Cold Metabolism** — Your body burns calories more efficiently in cold conditions, retaining warmth and energy for longer.
+- <img src="../images/perks/tp_hydrationcold.png" width="22" style="vertical-align:middle"> **Cold Hydration** — Your body manages hydration more efficiently in cold environments, reducing water loss from exposure.
+- <img src="../images/perks/tp_wmlover.png" width="22" style="vertical-align:middle"> **Predatory Digestion** — Your stomach produces special enzymes and bacteria that help digest the meat of predators without consequences for the body.
+
+========================================
+
+=== POST 7 ===
+---
+
+### 💉 Medicine
+
+**How to level:** Treat wounds and illnesses — on yourself or other survivors.
+
+========================================
+
+=== POST 8 ===
+- <img src="../images/perks/tp_surgerystab.png" width="22" style="vertical-align:middle"> **Stab Wounds Surgery** — You increase the chance of successfully sewing up a stab wound with a surgical kit.
+- <img src="../images/perks/tp_surgeryinternal.png" width="22" style="vertical-align:middle"> **Internal Organs Surgery** — You increase the chance of successful surgery if internal organs are damaged.
+- <img src="../images/perks/tp_surgerybullet.png" width="22" style="vertical-align:middle"> **Bullet Wounds Surgery** — You increase the chance of successfully removing a bullet from the body with a surgical kit.
+- <img src="../images/perks/tp_cleanliness.png" width="22" style="vertical-align:middle"> **Cleanliness and Sterility** — You reduce the chance of getting an infection into the wound.
+- <img src="../images/perks/tp_pharmacologist.png" width="22" style="vertical-align:middle"> **Improved Drugs** — All medications last longer, giving you more time to recover and heal.
+- <img src="../images/perks/tp_masterdressing.png" width="22" style="vertical-align:middle"> **Master of Dressing** — Your dexterous hands are able to stop bleeding quickly and effectively.
+- <img src="../images/perks/tp_surgeon.png" width="22" style="vertical-align:middle"> **Surgeon** — Your precise and confident movements allow you to perform operations at maximum speed.
+- <img src="../images/perks/tp_bringinglife.png" width="22" style="vertical-align:middle"> **Cardiopulmonary Resuscitation** — You have learned how to quickly bring a person out of unconsciousness.
+- <img src="../images/perks/tp_pilrecognition.png" width="22" style="vertical-align:middle"> **Pills Recognition** — Your extensive experience in pharmacology helps you to recognize drugs in tablets.
+- <img src="../images/perks/tp_ampoulerecognition.png" width="22" style="vertical-align:middle"> **Ampoule Recognition** — Your extensive experience in pharmacology helps you to recognize medicines in ampoules.
+- <img src="../images/perks/tp_injectorrecognition.png" width="22" style="vertical-align:middle"> **Injectors Recognition** — Your extensive experience in pharmacology helps you to recognize drugs in injectors.
+- <img src="../images/perks/tp_expertantibiotics.png" width="22" style="vertical-align:middle"> **Antibiotics Expert** — Increases the effectiveness of antibiotics by increasing their level by 1 and improving the body's protection against diseases.
+- <img src="../images/perks/tp_anesthesiolog.png" width="22" style="vertical-align:middle"> **Anesthesiologist** — Your skills in using anesthetics are impeccable.
+- <img src="../images/perks/tp_immunomodulator.png" width="22" style="vertical-align:middle"> **Immunomodulator** — Your body adapts perfectly to vaccination, prolonging its effect.
+- <img src="../images/perks/tp_stethoscope.png" width="22" style="vertical-align:middle"> **Stethoscope mastering** — You have learned how to masterfully use a stethoscope to accurately diagnose the condition, diseases and wounds of your patients.
+- <img src="../images/perks/tp_biohazard.png" width="22" style="vertical-align:middle"> **Hazard Awareness** — You are better prepared to handle exposure to biological and chemical hazards.
+
+========================================
+
+=== POST 9 ===
+---
+
+### 🏃 Athletics
+
+**How to level:** Run long distances.
+
+**Passive bonus:** Each level increases your maximum stamina.
+
+
+- <img src="../images/perks/tp_quickfeet.png" width="22" style="vertical-align:middle"> **Quick Legs** — You spend less stamina when sprinting.
+- <img src="../images/perks/tp_marathoner.png" width="22" style="vertical-align:middle"> **Marathoner** — You regain stamina faster when jogging.
+- <img src="../images/perks/tp_properbreathing.png" width="22" style="vertical-align:middle"> **Proper Breathing** — You recover stamina faster by standing still.
+- <img src="../images/perks/tp_swimmer.png" width="22" style="vertical-align:middle"> **Swimmer** — You reduce stamina consumption and increase its recovery when swimming.
+- <img src="../images/perks/tp_climber.png" width="22" style="vertical-align:middle"> **Ladders Master** — You reduce stamina consumption and increase its recovery when using vertical ladders.
+- <img src="../images/perks/tp_nopanting.png" width="22" style="vertical-align:middle"> **No Panting** — You reduce the delay before stamina is restored.
+- <img src="../images/perks/tp_hydrationctr.png" width="22" style="vertical-align:middle"> **Hydration Control** — You reduce water consumption when running.
+- <img src="../images/perks/tp_energyctr.png" width="22" style="vertical-align:middle"> **Energy Control** — You reduce the consumption of food when running.
+- <img src="../images/perks/tp_enduring.png" width="22" style="vertical-align:middle"> **Enduring** — Your body is hardened for long-term loads.
+- <img src="../images/perks/tp_stuntman.png" width="22" style="vertical-align:middle"> **Stuntman** — You reduce the damage you receive from falls.
+- <img src="../images/perks/tp_strongbones.png" width="22" style="vertical-align:middle"> **Strong Bones** — Your bones have become stronger, reducing the risk of fractures.
+
+---
+
+========================================
+
+=== POST 10 ===
+### 💪 Strength
+
+**How to level:** Physical activity and using melee weapons.
+
+**Passive bonus:** Each level increases your maximum carry weight.
+
+========================================
+
+=== POST 11 ===
+- <img src="../images/perks/tp_heavyweight.png" width="22" style="vertical-align:middle"> **Heavyweight** — Your physical fitness allows you to carry more weight.
+- <img src="../images/perks/tp_jumper.png" width="22" style="vertical-align:middle"> **Jumper** — Your jumps have become easier.
+- <img src="../images/perks/tp_masterdefense.png" width="22" style="vertical-align:middle"> **Master of Protection** — You effectively deflect attacks, spending less stamina on blocking attacks.
+- <img src="../images/perks/tp_masterevasion.png" width="22" style="vertical-align:middle"> **Master of Evasion** — Your defense skills are honed to perfection.
+- <img src="../images/perks/tp_gustysquall.png" width="22" style="vertical-align:middle"> **Swift Attacks** — Your fast attacks have become more effective.
+- <img src="../images/perks/tp_crushingsquall.png" width="22" style="vertical-align:middle"> **Strong Attacks** — Your fast attacks have become more powerful.
+- <img src="../images/perks/tp_heavyonslaught.png" width="22" style="vertical-align:middle"> **Heavy Onslaught** — You have learned how to distribute your forces correctly.
+- <img src="../images/perks/tp_destronslaught.png" width="22" style="vertical-align:middle"> **Destructive Onslaught** — Your strong punches have become more destructive.
+- <img src="../images/perks/tp_stronghands.png" width="22" style="vertical-align:middle"> **Sturdy Hands** — Your body is designed to carry heavy and bulky objects.
+- <img src="../images/perks/tp_masterstroke.png" width="22" style="vertical-align:middle"> **Masterstroke** — Your single punches are so powerful that they can instantly knock out zombies or other players.
+- <img src="../images/perks/tp_lightarmor.png" width="22" style="vertical-align:middle"> **Lightweight Armor** — You have learned how to wear armor effectively, reducing its weight on your body.
+- <img src="../images/perks/tp_bonecrusher.png" width="22" style="vertical-align:middle"> **Bonecrusher** — Your powerful blows with cold steel are so destructive that they are highly likely to break the bones of enemies, disabling them and leaving them helpless.
+- <img src="../images/perks/tp_mastersword.png" width="22" style="vertical-align:middle"> **Master of Sword** — Your blows with cold steel are so accurate and strong that one powerful swing to the upper body can decapitate an opponent, instantly depriving him of any chance of escape.
+- <img src="../images/perks/tp_armordissector.png" width="22" style="vertical-align:middle"> **Armor Dissector** — Your skill with melee weapons allows you to deliver more powerful blows.
+
+========================================
+
+=== POST 12 ===
+---
+
+### 🕶️ Stealth
+
+**How to level:** Move stealthily and avoid detection by infected.
+
+========================================
+
+=== POST 13 ===
+- <img src="../images/perks/tp_quiestep.png" width="22" style="vertical-align:middle"> **Quiet Steps** — Your footsteps become quieter, which helps to avoid unnecessary attention and be more silent for other survivors.
+- <img src="../images/perks/tp_coldblooded.png" width="22" style="vertical-align:middle"> **Coldblooded** — You remain absolutely calm in any situation.
+- <img src="../images/perks/tp_quietshooter.png" width="22" style="vertical-align:middle"> **Commandos** — Reloading and other manipulations with weapons create less noise, allowing you to remain stealthy even in stressful situations.
+- <img src="../images/perks/tp_fittingequipment.png" width="22" style="vertical-align:middle"> **Fitted Equipment** — Your character's gear makes less noise when moving, which helps you avoid unnecessary attention and be more silent for other survivors.
+- <img src="../images/perks/tp_invisibleman.png" width="22" style="vertical-align:middle"> **Invisible Man** — The skill of staying in the shadows and avoiding loud actions makes you virtually invisible to the infected, allowing you to easily pass through dangerous territories.
+- <img src="../images/perks/tp_catvision.png" width="22" style="vertical-align:middle"> **Cat's Vision** — Your eyes adjust to the dark like a cat's.
+- <img src="../images/perks/tp_wolfinstinct.png" width="22" style="vertical-align:middle"> **Wolves Friend** — Your understanding of predator behavior allows you to stay out of their field of view and not attract them with your scent.
+- <img src="../images/perks/tp_friendbear.png" width="22" style="vertical-align:middle"> **Bears Friend** — Thanks to your experience and understanding of the habits of wild animals, bears notice you less often and do not show aggression, giving you a better chance to avoid a dangerous encounter.
+- <img src="../images/perks/tp_silentkiller.png" width="22" style="vertical-align:middle"> **Silent Killer** — Your knife handling skills are impeccable.
+- <img src="../images/perks/tp_silentexecut.png" width="22" style="vertical-align:middle"> **The Silent Executioner** — You get the opportunity to make quick and silent kills with a two-handed bladed weapon.
+- <img src="../images/perks/tp_ninja.png" width="22" style="vertical-align:middle"> **Ninja** — All the noise and sounds you make become 50% quieter at night.
+- <img src="../images/perks/tp_invisiblestep.png" width="22" style="vertical-align:middle"> **Invisible Step** — Your footsteps make almost no sound, making it nearly impossible for infected to hear you approach.
+- <img src="../images/perks/tp_shadowtrack.png" width="22" style="vertical-align:middle"> **Silent step** — You have reached the highest level of stealth.
+
+========================================
+
+=== POST 14 ===
+---
+
+### 🌲 Survival
+
+**How to level:** Kill infected, start bonfires, and stay alive.
+
+**Passive bonus:** Each level reduces environmental temperature impact, zombie damage, and fire-starting time.
+
+========================================
+
+=== POST 15 ===
+- <img src="../images/perks/tp_startingfire.png" width="22" style="vertical-align:middle"> **Pyromaniac** — You have learned how to quickly and effectively light a fire that will save you in all weather conditions.
+- <img src="../images/perks/tp_freezeresist.png" width="22" style="vertical-align:middle"> **Cold Resistance** — It's like you were made for the cold.
+- <img src="../images/perks/tp_roughfeet.png" width="22" style="vertical-align:middle"> **Rough Feet** — Your feet are so used to harsh conditions that the risk of getting cuts or injuries without shoes is noticeably reduced.
+- <img src="../images/perks/tp_roughhands.png" width="22" style="vertical-align:middle"> **Rough Hands** — Your hands feel like they're made of steel.
+- <img src="../images/perks/tp_ancestechno.png" width="22" style="vertical-align:middle"> **Ancestral Technologies** — You have mastered ancient techniques that allow you to craft a homemade ignition kit.
+- <img src="../images/perks/tp_maintainingfire.png" width="22" style="vertical-align:middle"> **Fire Efficiency** — Your fire handling skills allow you to maintain it for longer with less resources.
+- <img src="../images/perks/tp_durablematerial.png" width="22" style="vertical-align:middle"> **Durable Material** — Your skills with tools and weapons allow you to reduce the wear of gloves, which reduces the chance of damage during active use.
+- <img src="../images/perks/tp_expert.png" width="22" style="vertical-align:middle"> **The Expert** — Your extensive knowledge of food allows you to see detailed information about calories, nutrients and other characteristics of foods.
+- <img src="../images/perks/tp_durableequip.png" width="22" style="vertical-align:middle"> **Durable Equipment** — Your skills and experience allow you to reduce the damage to clothing when taking damage.
+- <img src="../images/perks/tp_survcrafts.png" width="22" style="vertical-align:middle"> **Bushcrafter** — Your survival skills allow you to craft survival gear and items (knives, arrows, spears, clothes, gear, etc.
+- <img src="../images/perks/tp_ownershiptools.png" width="22" style="vertical-align:middle"> **Tools Ownership** — Your tool handling skills have improved significantly, allowing you to use them more effectively.
+- <img src="../images/perks/tp_survinstinct.png" width="22" style="vertical-align:middle"> **Survival Instinct** — Zombies stop killing you when you are unconscious.
+- <img src="../images/perks/tp_mushpremonition.png" width="22" style="vertical-align:middle"> **Mushroom Premonition** — Your mushroom hunting skills have been perfected.
+- <img src="../images/perks/tp_caches.png" width="22" style="vertical-align:middle"> **Invisible Stashes** — Your survival skills allow you to mask caches and caches making them completely invisible.
+
+========================================
+
+=== POST 16 ===
+---
+
+### 🦌 Hunting
+
+**How to level:** Hunt and butcher animals.
+
+**Passive bonus:** Each level increases the number of meat cuts from skinning.
+
+
+- <img src="../images/perks/tp_meathunt.png" width="22" style="vertical-align:middle"> **Meat Hunter** — You get more meat from the loot.
+- <img src="../images/perks/tp_quickcutm.png" width="22" style="vertical-align:middle"> **Butcher** — You reduce the time it takes to butcher the carcass.
+- <img src="../images/perks/tp_masterknife.png" width="22" style="vertical-align:middle"> **Master of Knifes** — You reduce the wear of the knife when cutting carcasses.
+- <img src="../images/perks/tp_trapexpert.png" width="22" style="vertical-align:middle"> **Trap Expert** — You increase the effectiveness of animal traps.
+- <img src="../images/perks/tp_prhides.png" width="22" style="vertical-align:middle"> **Tanner** — You get more skins from the harvested animals, damaging them significantly less.
+- <img src="../images/perks/tp_exphunter.png" width="22" style="vertical-align:middle"> **Experienced Hunter** — You have increased damage to animals from firearms.
+- <img src="../images/perks/tp_knwanatomy.png" width="22" style="vertical-align:middle"> **Anatomy Connoisseur** — You can more easily inflict fatal wounds on animals with melee weapons.
+- <img src="../images/perks/tp_removrot.png" width="22" style="vertical-align:middle"> **Rot Expert** — You have learned how to cut rotten areas out of meat.
+- <img src="../images/perks/tp_pathfindr.png" width="22" style="vertical-align:middle"> **Pathfinder** — Your sharp eye notices the smallest details.
+
+---
+
+### 🎣 Fishing
+
+**How to level:** Go fishing.
+
+========================================
+
+=== POST 17 ===
+- <img src="../images/perks/tp_mastfile.png" width="22" style="vertical-align:middle"> **Sushi Master** — Your fish cutting skills allow you to extract more fillets.
+- <img src="../images/perks/tp_quickclean.png" width="22" style="vertical-align:middle"> **Quick Cleaning** — Your fish cutting skills are at the highest level.
+- <img src="../images/perks/tp_straightarms.png" width="22" style="vertical-align:middle"> **Skillful Hands** — You handle fishing rods, knives, and fishing gear carefully, reducing their wear and tear.
+- <img src="../images/perks/tp_mastrtrap.png" width="22" style="vertical-align:middle"> **Nets Fishing** — Your fishing trap installation skills have improved.
+- <img src="../images/perks/tp_skillfishman.png" width="22" style="vertical-align:middle"> **Clever Fisherman** — The chance of biting is increased, which allows you to pull out the catch faster and more often.
+- <img src="../images/perks/tp_fishmanluck.png" width="22" style="vertical-align:middle"> **Lucky Fisherman** — Your fishing skills allow you to hook real trophies more often.
+- <img src="../images/perks/tp_tensioncontr.png" width="22" style="vertical-align:middle"> **Tension Control** — You perfectly control the tension of the fishing line, reducing the risk of its rupture.
+- <img src="../images/perks/tp_tacklerepaip.png" width="22" style="vertical-align:middle"> **Repairman** — You can easily repair damaged gear.
+- <img src="../images/perks/tp_reliablegear.png" width="22" style="vertical-align:middle"> **Reliable Hooks** — Your skills allow you to reduce the chance of losing hooks or bait when fishing.
+- <img src="../images/perks/tp_luckmagnet.png" width="22" style="vertical-align:middle"> **Four-Leaf Clover** — Your are so lucky that your chances to catch valuable items is significantly increased.
+- <img src="../images/perks/tp_cleanwizard.png" width="22" style="vertical-align:middle"> **Cutting Rot** — Your fish cutting skills make it easy to remove rotten areas while keeping the meat as fit as possible.
+- <img src="../images/perks/tp_wormhunter.png" width="22" style="vertical-align:middle"> **Worms Digger** — Each of your digs brings in more worms than usual.
+- <img src="../images/perks/tp_craftsman.png" width="22" style="vertical-align:middle"> **Craftsman** — You have learned how to create homemade fishing rods and tackle from improvised tools.
+
+========================================
+
+=== POST 18 ===
+---
+
+> *The character skill system adds 9 skill trees to the base game. Skills are a core part of long-term character growth on this server.*
+
+
+## Advanced Medicine
+
+A simple bandage won't save you here. The medical system on this server is deep and realistic — every illness and injury progresses through distinct stages, each requiring a specific treatment. Learn this system or die from something a basic first-aid kit could have fixed.
 
 
 
@@ -65,56 +325,493 @@ As you survive and perform actions in the world, your character will learn and g
 
 ========================================
 
-=== POST 4 ===
-### Skill Progression
-You gain experience simply by playing the game. 
-- **Athletics & Strength:** Running, jumping, and carrying gear will slowly improve your physical capabilities.
-- **Metabolism & Immunity:** Eating, drinking, and fighting off diseases will make your body more resilient.
-- **Survival & Hunting:** Starting fires, skinning animals, and fishing will make you a master of the wilderness.
-- **Medicine:** Treating wounds and using medical supplies will make your treatments more effective.
-
-### Perks & Skill Books
-As you level up your skills, you will unlock powerful perks that grant permanent bonuses, such as reduced weapon sway, better disease resistance, or the ability to carry more weight. 
-You can also find **Skill Books** scattered across the world. Reading these will grant you a burst of experience in a specific skill tree.
-
-*Note: Your skills are persistent. You do not lose your hard-earned experience when you die!*
-
+=== POST 19 ===
 ---
 
-## Advanced Medicine
+### 
 
-A simple bandage won't fix everything anymore. The medical system is deep and requires specific treatments for specific injuries.
-
-### Types of Injuries
-- **Light Bleeds:** Minor cuts and scrapes. Can be treated with standard bandages or rags.
-- **Heavy Bleeds & Deep Wounds:** Caused by severe trauma. These require more advanced medical attention, sometimes even field surgery, before they can be properly bandaged.
-- **Bullet Wounds:** If you take a bullet, it might stay in your body. You will need a surgical kit to extract the bullet before the wound can fully heal.
-- **Fractures:** Falling from heights or taking heavy blunt damage can break your bones. You will need a splint and painkillers to keep moving.
+*[Attach image: ../images/med-tablets.png here]*
 
 ========================================
 
-=== POST 5 ===
-### Diseases & Infections
-- **Wound Infection:** Always use disinfected bandages! Using dirty rags will lead to sepsis, which requires strong antibiotics to cure.
-- **Zombie Virus:** Getting hit by infected carries a risk of contracting the zombie virus. Keep antiviral medication on hand.
-- **Food Poisoning:** Eating raw meat or drinking dirty water will make you violently ill. Charcoal tablets are your best friend.
+=== POST 20 ===
+Medicines Overview
+
+Medicines come in three forms:
+
+- **Tablets** — Used for early-stage treatment and prevention. Packages hold multiple doses and can be stacked. Best for carrying multiples in your kit.
+- **Ampoules** — Stronger medications for moderate to severe conditions. Require a **syringe** to administer. After each use, the syringe must be disinfected with alcohol or boiled in water before reuse.
+- **Injectors** — Disposable single-use injectors. Similar to ampoules but no syringe needed — the injector is discarded after use.
+
+> **Medicine tiers:** Treatments come in **Weak**, **Normal**, and **Strong** variants. A higher-tier medicine can treat a lower-tier illness, but using a weaker medicine on an advanced illness will have no effect.
+
+---
+
+### 
+
+*[Attach image: ../images/med-vaccine.png here]*
+
+========================================
+
+=== POST 21 ===
+Vaccines
+
+Vaccines grant temporary immunity to specific diseases. Administer them **before** entering contaminated or dangerous areas:
+
+- **Vaxicam** (Protects Against: Cold / Pneumonia)
+- **Zerivax** (Protects Against: Zombie Virus)
+- **Rabivax** (Protects Against: Rabies)
+
+---
+
+### 
+
+*[Attach image: ../images/med-desinfection.png here]*
+
+========================================
+
+=== POST 22 ===
+Disinfection
+
+Disinfection is critical. **Always disinfect your hands and medical tools before performing any procedure.** Dirty hands on an open wound will cause sepsis.
+
+- **Alcoholic Tincture** and **Disinfectant Spray** can clean tools and wounds.
+- Syringes must be disinfected after every use.
+
+---
+
+## Physical Conditions
+
+### 
+
+*[Attach image: ../images/med-hematoma.png here]*
+
+========================================
+
+=== POST 23 ===
+Hematomas
+
+Caused by blunt trauma — zombie hits, fists, or bludgeoning weapons. When multiple hematomas accumulate, your health will begin to decline. They heal naturally over time, but ointments speed up recovery significantly.
+
+**Treatments:** Viprosal, Capsicum, Finalgon ointments (Weak → Strong).
+
+---
+
+### 
+
+*[Attach image: ../images/med-organs.png here]*
+
+========================================
+
+=== POST 24 ===
+*[Attach image: ../images/med-bullet.png here]*
+
+ Gunshot & Stab Wounds
+
+Bullets and blade wounds cause severe bleeding and may leave foreign objects in your body. Bandaging stops immediate bleeding but the wound will continue to seep until the object is **surgically removed**.
+
+In severe cases, the wound penetrates internal organs — much harder to treat and requiring higher-quality surgical tools.
+
+**A ballistic vest can absorb bullet impacts**, but even blocked shots transfer as hematomas rather than penetrating wounds.
+
+**Surgical Tools (Weak → Strong):** Ceramic Surgical Bowl → Field Surgical Kit → IFAK → AFAK
+
+> ⚠️ Always disinfect before surgery. Always suture the wound afterward.
+
+---
+
+### 
+
+*[Attach image: ../images/med-cut2.png here]*
+
+========================================
+
+=== POST 25 ===
+Surgical Sutures
+
+After surgery, sutures must be regularly disinfected to prevent sepsis. Check your wounds — infected sutures will deteriorate quickly and can become life-threatening.
+
+---
+
+### 
+
+*[Attach image: ../images/med-brain.png here]*
+
+========================================
+
+=== POST 26 ===
+Concussion
+
+Caused by hard blows to the head, nearby explosions, or low-caliber bullets absorbed by a ballistic helmet. Symptoms include headache, dizziness, unstable movement, and blurred vision. Heals on its own over time, but medications significantly reduce severity and duration.
+
+**Treatments:** Noopept (tablets) → Neirox (ampoule/injector).
+
+---
+
+### 
+
+*[Attach image: ../images/med-blood3.png here]*
+
+========================================
+
+=== POST 27 ===
+Hemostasis (Bleeding Rate)
+
+Your body's natural ability to slow bleeding. Specific medications can boost this process — critical when you are taking fire and can't stop to bandage properly.
+
+**Treatments:** Vikasol (Weak) → Erytromixelin injector (Strong).
+
+---
+
+### 
+
+*[Attach image: ../images/med-blood4.png here]*
+
+========================================
+
+=== POST 28 ===
+Blood Regeneration
+
+Your body regenerates blood after blood loss. Medications can accelerate this process, helping you recover faster after wounds.
+
+**Treatments:** Irovit / Magnesium Sulfate (tablets, Weak) → Erythropoetin (ampoule) → Erytromixelin injector (Strong).
+
+---
+
+## Infections & Diseases
+
+### 
+
+*[Attach image: ../images/med-influenza.png here]*
+
+========================================
+
+=== POST 29 ===
+Cold / Pneumonia
+
+Contracted from prolonged cold exposure. A mild cold can be cured by resting somewhere warm. Untreated, it progresses to pneumonia — which will slowly drain your health and requires antibiotics.
+
+**Treat early.** Weak antibiotics like Tetracycline work on a mild cold. Pneumonia requires Normal or Strong antibiotics (Ibuprofen, Amoxiclav, Imipenem, etc.). Vaccination with **Vaxicam** prevents infection.
+
+---
+
+### 
+
+*[Attach image: ../images/med-poisoning.png here]*
+
+========================================
+
+=== POST 30 ===
+Food Poisoning
+
+From spoiled food, raw meat, rotten fruit, poisonous mushrooms, or dirty water. Symptoms (nausea, vomiting) appear quickly. Untreated, it causes dehydration and health loss.
+
+**Treatments:** Charcoal Tablets / Polysorb (Weak) → Mesalazine / Metoclopramid (Normal) → Heptral / Stomaproxidal (Strong).
+
+---
+
+### 
+
+*[Attach image: ../images/med-biohazard.png here]*
+
+========================================
+
+=== POST 31 ===
+Chemical Poisoning
+
+From inhaling toxic gas in contaminated areas. Starts with coughing, escalates to nausea and severe health loss. Fatal without treatment.
+
+**Treatments:** Rombiopental (Weak) → Neurocetal ampoule (Normal) → AntiChem Injector (Strong).
+
+---
+
+### 
+
+*[Attach image: ../images/med-virusz.png here]*
+
+========================================
+
+=== POST 32 ===
+Zombie Virus
+
+Transmitted through airborne contact and zombie wounds — any hit from an infected carries a chance of transmission. Wearing a **face mask and ballistic armor** reduces the risk. The virus has a long incubation period before health decline begins, giving you time to find a cure.
+
+**Treatment:** Zivirol (ampoule or injector) — acts as the antidote. **Vaccination: Zerivax** prevents infection.
+
+> ⚠️ This is one of the most dangerous diseases. Always carry Zivirol in high-zombie areas.
+
+---
+
+### 
+
+*[Attach image: ../images/med-blood2.png here]*
+
+========================================
+
+=== POST 33 ===
+Sepsis
+
+Infection from dirty wounds — caused by handling wounds without disinfecting hands, or using unsterilised tools. Gradually deteriorates health without treatment.
+
+**Treatment requires Strong antibiotics only:** Flemoclav / Imipenem (ampoule) or Amoxiclav / Topoisomerase (injector).
+
+---
+
+### 
+
+*[Attach image: ../images/med-virus.png here]*
+
+========================================
+
+=== POST 34 ===
+Rabies
+
+Transmitted by bites from infected animals (wolves). Progresses silently — early stage shows only mild weakness. Stage 2 causes severe nausea, preventing eating or drinking. Stage 3 causes rapid health loss and is fatal without treatment.
+
+**Treatments:** Rabinoline (Normal ampoule) → Rifampicin / Rabinucoline (Strong). **Vaccination: Rabivax** prevents infection.
+
+---
+
+## Symptoms
+
+### 
+
+*[Attach image: ../images/med-pain.png here]*
+
+========================================
+
+=== POST 35 ===
+Pain
+
+All significant injuries cause pain, which impairs movement and combat. Pain fades naturally over time but can be suppressed with painkillers.
+
+**Treatments (Weak → Strong):** Codeine / Analgin / Ibuprofen (tablets) → Novacaine (ampoule) → Morphine / Hexobarbital / Promidol (injectors).
+
+> ⚠️ Be careful with strong painkillers — they carry a real overdose risk.
+
+---
+
+### 
+
+*[Attach image: ../images/med-overdose.png here]*
+
+========================================
+
+=== POST 36 ===
+Overdose
+
+Taking too much medication introduces overdose toxicity that builds over time. It progresses through three stages:
+
+- **Stage 1:** Nausea and hallucinations.
+- **Stage 2:** Loss of consciousness — you become completely vulnerable.
+- **Stage 3:** Critical health loss, potentially fatal.
+
+The toxicity clears naturally as your body processes it. **Drinking water reduces overdose progression.** Don't stack the same medicines repeatedly.
+
+---
+
+## Emotional States
+
+### 
+
+*[Attach image: ../images/med-dream.png here]*
+
+========================================
+
+=== POST 37 ===
+Sleep
+
+Your character needs rest. The sleep indicator tracks fatigue:
+
+- **Yellow indicator:** Your character starts yawning and vision degrades.
+- **Red indicator:** Risk of losing consciousness from exhaustion.
+
+Sleep works best in warm, safe places — near a fire, inside a building, or in a sleeping bag. You **cannot sleep** while freezing, starving, or suffering from a Stage 2+ illness. While asleep, health and blood recover rapidly, and you may naturally shake off mild illnesses.
+
+**Energy drinks** (MadBull, Yaguar, Gang, etc.) can temporarily suppress the sleep need in an emergency.
+
+---
+
+### 
+
+*[Attach image: ../images/med-mental.png here]*
+
+========================================
+
+=== POST 38 ===
+Mental Health
+
+Extreme stress degrades your mental state. Causes include:
+
+- Prolonged exposure to **Psionic Zones** (dangerous psychoactive areas on the map).
+- Repeated **zombie attacks**.
+- Consuming **human meat**.
+
+As mental health deteriorates, you experience panic, hallucinations, and loss of control. At zero mental health, your character may take uncontrollable actions that lead to death.
+
+**Treatments (Weak → Strong):** Adepress / Agteminol / Venlafaxine (tablets) → Actaparoxetine / Metralindole (ampoule) → Amitriptyline / Amfitalicyne (Strong).
+
+Wearing a **PSI Helmet** provides strong protection in Psionic Zones.
+
+---
+
+> *The advanced medicine system on this server adds extensive medical mechanics beyond vanilla DayZ. Skills and Radiation systems are covered in their own sections.*
 
 ---
 
 ## Radiation Zones
 
-Certain high-value military areas and key locations on DeerIsle are highly irradiated. Entering these zones unprepared is a death sentence.
+<img src="../images/radiation/rad_radiation.png" width="32" style="vertical-align:middle"> Certain high-value military and industrial areas on DeerIsle are heavily irradiated. Entering unprepared is a death sentence — not an instant one, but a slow and painful sickness that will kill you if you ignore it.
 
-### The Geiger Counter
-Always carry a Geiger counter when exploring unknown territory. It will click and warn you when radiation levels are rising.
+---
 
-### Protection
-To survive in a radiation zone, you need specialized gear:
-- **NBC Suits:** A full NBC suit (hood, jacket, pants, boots, and gloves) combined with a gas mask and filter will protect you from environmental radiation.
-- **Filters:** Gas mask filters degrade over time while in a radiation zone. Always bring spares!
+### How Radiation Works
 
-### Treatment
-If you absorb too much radiation, you will develop acute radiation sickness. This causes vomiting, blood loss, and eventually death. You must use specialized anti-radiation medication (like Rad-X or Potassium Iodide) to purge the radiation from your system.
+Radiation zones spread over a radius. **The closer you are to the center, the higher the exposure rate.** On the outer edge, a gas mask alone may be enough. Near the core, you need a full NBC suit.
+
+Radiation builds up inside your body as a **rad-buffer**. Sources of exposure:
+
+- Being inside a radiation zone
+- Touching or picking up contaminated items
+- Wearing clothing that has accumulated radiation
+
+The rad-buffer fills continuously while you're exposed. Once it reaches a threshold, **Radiation Sickness** sets in and escalates in stages. You do not die directly from radiation — it kills you through the staged sickness effects.
+
+========================================
+
+=== POST 39 ===
+> **Your items and clothing also get contaminated.** Everything in your inventory accumulates radiation while you're in a zone. You must decontaminate your gear after leaving, or it will continue to expose you.
+
+---
+
+### <img src="../images/radiation/rad_biohazard.png" width="22" style="vertical-align:middle"> Radiation Sickness Stages
+
+- **1** (Name: **Mild Radiation Sickness**, Effects: Weakness, nausea, dizziness — reduced stamina and coordination)
+- **2** (Name: **Severe Radiation Sickness**, Effects: Bleeding, suppressed immune system — wounds won't clot, infections become more likely)
+- **3** (Name: **Terminal Stage**, Effects: Severe health drain, extreme exhaustion — death is imminent without immediate treatment)
+
+---
+
+### <img src="../images/radiation/rad_biohazard.png" width="22" style="vertical-align:middle"> Dosimeters
+
+You need a dosimeter to detect radiation zones and measure how dangerous they are. All dosimeters require a **D-size battery**.
+
+- **Radiometer RKS-20.03 **"Pripyat"**** (Measures: µSv/h, Max Reading: 9,999 µSv/h, Detection Radius: 3 m)
+- **Radiometer **MKC-01CA1M**** (Measures: mR/h, Max Reading: 9,999 mR/h, Detection Radius: 5 m)
+- ****CD V-700** Geiger Counter** (Measures: mR/h, Max Reading: 5,000 mR/h, Detection Radius: 10 m)
+- **Household Dosimeter **DBG-05B**** (Measures: mR/h, Max Reading: 999 mR/h, Detection Radius: 1.5 m)
+
+**Tips:**
+- The **CD V-700** has the widest detection radius (10 m) — best for scouting zone boundaries at a distance.
+- The **Pripyat** is the most accurate for precise measurements close-up.
+- ⚠️ The CD V-700 may give **false low readings at extremely high radiation levels** — if it suddenly drops to near-zero deep in a zone, it has been overwhelmed, not that it's safe.
+
+---
+
+### 🛡️ NBC Protection
+
+========================================
+
+=== POST 40 ===
+To safely enter a radiation zone, you need a **full 6-piece NBC suit** plus a gas mask with filter. Protection is calculated per slot, weighted by importance:
+
+- **😷 **Mask**** (Item: Military Gas Mask, Protection: 95%, Weight: **41.67%** ← most important)
+- **🧥 Body** (Item: NBC Jacket, Protection: 95%, Weight: 16.67%)
+- **👖 Legs** (Item: NBC Pants, Protection: 95%, Weight: 16.67%)
+- **👟 Feet** (Item: NBC Boots, Protection: 95%, Weight: 8.33%)
+- **🧤 Hands** (Item: NBC Gloves, Protection: 95%, Weight: 8.33%)
+- **🧢 Head** (Item: NBC Hood, Protection: 95%, Weight: 8.33%)
+
+> **Critical:** The gas mask accounts for 41.67% of your total protection. Without it, even wearing a full 5-piece NBC suit only gives you ~55% protection — not enough for the center of a hot zone. The mask is the single most important piece of gear before entering any radiation zone.
+
+#### Available Gas Masks
+
+All three gas masks available on this server provide **95% radiation protection** in the Mask slot. Since the Mask slot carries the highest weight (41.67%), any of them is a valid choice — pick based on what filter you can source.
+
+- ****M50 Gasmask**** (Filter Slot: Standard Gas Mask Filter, Radiation Protection: 95%)
+- ****AVON M53A1 Gasmask**** (Filter Slot: C420 PAPR Filter (proprietary), Radiation Protection: 95%)
+- ****PMK-4 Gas Mask**** (Filter Slot: Standard Gas Mask Filter, Radiation Protection: 95%)
+
+**M50 Gasmask** — A US military-pattern mask used by Special Warfare operators. Takes standard filters, making resupply straightforward. The mask body itself has a small built-in filter reserve (225 ml) that will keep you alive briefly with no attached filter, but it won't last long — always run a proper filter cartridge.
+
+========================================
+
+=== POST 41 ===
+**AVON M53A1 Gasmask** — British NBC mask with an external PAPR (Powered Air-Purifying Respirator) filtration system attached to the side. Uses a **proprietary C420 PAPR Filter** (150 durability) rather than standard filter cartridges — these are rarer, so stock up before heading into a zone. Same protection tier as the M50.
+
+**PMK-4 Gas Mask** — A modern Russian military gas mask with a frontal cartridge mount. Takes standard Gas Mask Filters, same as the M50. Despite not inheriting NBC protection by default (it uses Clothing as its base rather than the GasMask class), protection has been **server-configured** to match the 95% NBC standard — it is fully effective.
+
+#### Gas Mask Filters
+
+- **Improvised Gas Mask Filter** (Protection: 70%)
+- **Gas Mask Filter** (Protection: 90%)
+- **Military Gas Mask (built-in)** (Protection: 95%)
+
+Filters **drain over time** while in a radiation zone. Always carry spares. Running out of filter in the middle of a zone means immediate full exposure.
+
+---
+
+### <img src="../images/radiation/tr_antirad.png" width="22" style="vertical-align:middle"> Treatment
+
+Once you have radiation sickness, you must take **anti-radiation medication** to flush the rad-buffer from your body. Higher strength (Level) drugs work faster and last longer, but have stricter overdose limits — don't stack too many at once.
+
+========================================
+
+=== POST 42 ===
+- **B190 Tablets** (Strength: 1, Duration: 140s, Overdose Threshold: 0.3)
+- **Potassium Iodide Tablets** (Strength: 1, Duration: 60s, Overdose Threshold: 0.2)
+- **Hexacyanoferrate Tablets** (Strength: 1, Duration: 120s, Overdose Threshold: 0.3)
+- **Mexamine Tablets** (Strength: 2, Duration: 25s, Overdose Threshold: 0.75)
+- **Pentacin Ampoule** (Strength: 2, Duration: 400s, Overdose Threshold: 0.5)
+- **Carboxyme Ampoule** (Strength: 2, Duration: 600s, Overdose Threshold: 0.6)
+- ****Radioprotector** Injector** (Strength: **3**, Duration: 600s, Overdose Threshold: 0.75)
+
+The **Radioprotector** is the strongest treatment available — it reduces the effects of alpha and gamma radiation and promotes accelerated rad-buffer clearance. Treat it as a last resort or prep before a very hot zone.
+
+---
+
+### 🧽 Decontaminating Your Gear
+
+After leaving a zone, your clothing and inventory items are contaminated and will continue to expose you. Clean them using one of:
+
+1. **Large amount of clean water** — basic wash, removes light contamination
+2. **Soapy solution** — combine **Household Soap** with water; removes moderate contamination including blood and radiation traces
+3. **Chemical Canister** — specialized decontamination fluid; the most effective option for heavily irradiated gear
+
+#### Decontamination Tent (Buildable)
+
+<img src="../images/radiation/tr_shower.png" width="32" style="vertical-align:middle"> <img src="../images/radiation/tr_pump.png" width="32" style="vertical-align:middle"> <img src="../images/radiation/tr_canistre.png" width="32" style="vertical-align:middle">
+
+You can build a **Radiation Decontamination Shower** at your base. It combines:
+- Radiation Decontamination Shower (base structure)
+- Garden Shower
+- Water Pump (12V, connects to a car battery)
+- Chemical Canister
+
+This lets you decontaminate large objects and vehicles that can't be cleaned by hand.
+
+---
+
+========================================
+
+=== POST 43 ===
+### 🗃️ Protective Containers
+
+Store valuables in **radiation-shielded containers** — items inside do not accumulate radiation even when you carry them into a hot zone.
+
+- **Radiation Protection Box** (Slots: 60)
+- **Radiation Protection Suitcase** (Slots: 35)
+
+---
+
+### Immunity Skill Perks
+
+Two perks in the **Immunity** skill tree directly affect radiation:
+
+- <img src="../images/perks/tp_radiationresist.png" width="22" style="vertical-align:middle"> **Radiation Resistance** — Reduces the severity of symptoms and the impact of negative effects from radiation exposure.
+- <img src="../images/perks/tp_radiationregen.png" width="22" style="vertical-align:middle"> **Radiation Regeneration** — Your body clears the rad-buffer faster after leaving a contaminated zone.
+
+See the Character Skills section for how to unlock these perks.
 
 ========================================
 

@@ -19,7 +19,7 @@ Your Reputation is a measure of your standing on the server. It is a crucial met
 - **Failing Quests:** Some quests may penalize you for failure or abandonment.
 
 ### Reputation Benefits
-- **Quest Unlocks:** Many advanced questlines (like Threat Intelligence or Field Validation) require a minimum Reputation score before the NPC will even speak to you.
+- **Quest Unlocks:** Some advanced questlines — particularly the PvP kill contracts — require a minimum Reputation standing before you can accept them. Build your rep through hunting, AI elimination, and other questlines first.
 - **Trader Access:** Traders reserve their best weapons, armor, and vehicles for reputable players. If your Reputation is too low, you won't be able to purchase high-end military gear.
 
 
@@ -52,8 +52,8 @@ The P2P Market allows players to trade items directly with each other, bypassing
 
 Managing your loot is a critical part of survival. Survivatorium offers several advanced storage options beyond the standard DayZ tents and barrels.
 
-### MMG Storage
-The server uses the **MMG Storage** mod, which provides a variety of high-capacity, visually distinct storage containers to organize your base.
+### Storage Containers
+The server offers a variety of high-capacity, visually distinct storage containers to organize your base.
 
 - **Gun Racks:** Display and store your firearms efficiently.
 - **Gear Stands:** Store clothing, armor, and backpacks so they are ready to grab after a death.
@@ -63,7 +63,7 @@ The server uses the **MMG Storage** mod, which provides a variety of high-capaci
 
 === POST 3 ===
 ### Secure Storage
-- **Code Locks:** You can attach Code Locks to tents, barrels, and MMG storage containers to secure your loot from thieves. Even if someone breaches your base walls, they will still need to crack your containers.
+- **Code Locks:** You can attach Code Locks to tents, barrels, and custom storage containers to secure your loot from thieves. Even if someone breaches your base walls, they will still need to crack your containers.
 - **Territory Protection:** Items stored within your claimed territory are protected by your base's defenses, but remember that bases can be raided!
 
 ### Storage Limits

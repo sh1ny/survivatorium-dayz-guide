@@ -19,7 +19,7 @@ Welcome to Survivatorium on DeerIsle. This guide covers everything you need to k
 - **2.3** Do not block keycard readers with vehicles or items
 
 ### Base Building
-- **3.1** No building within 500m of Military areas, Hospitals, Quest Entrances, or Mount Sage
+- **3.1** No building within 500m of Military areas, Hospitals, or Quest Entrances
 - **3.2** Bases must be realistic - no floating/sky bases
 - **3.3** Do not block public roads, bridges, or water wells
 - **3.4** Maximum 2 bases per faction/group
@@ -31,23 +31,18 @@ Welcome to Survivatorium on DeerIsle. This guide covers everything you need to k
 - **4.4** No wall-glitching, emote-peeking, or body-stacking to bypass defenses
 
 
-
-*[Attach image: ../images/spawn-location.png here]*
-
-========================================
-
-=== POST 2 ===
----
-
 ## Required Mods
 
 The server uses a carefully curated modpack to enhance the survival experience. You can find all the required mods in our Steam Workshop collection.
 
 ### Core Features
-- **DayZ Expansion:** Overhauls many core mechanics, including the quest system, market, and territories.
-- **BaseBuildingPlus:** Provides extensive options for constructing your perfect base.
+- **Enhanced Core Systems:** Expands core mechanics including the quest system, player market, and territory base building.
+- **Advanced Construction:** Build everything from simple wooden shacks to multi-story concrete bunkers.
 - **Custom Survival Mechanics:** Enhanced medical, radiation, and skill systems to deepen the survival experience.
 
+========================================
+
+=== POST 2 ===
 ### Gameplay Enhancements
 - **KeyRooms & Hacked Crates:** High-risk, high-reward loot locations scattered across the map.
 - **Patrol Helicopters:** Dynamic AI threats that patrol the skies.
@@ -55,9 +50,9 @@ The server uses a carefully curated modpack to enhance the survival experience. 
 - **Breaching Charges:** Specialized explosives used for raiding enemy bases.
 
 ### Weapons & Gear
-- **Tactical Flava & Forward Operator Gear:** A massive arsenal of high-quality firearms, attachments, and tactical clothing.
-- **Real-World Ammo & Ballistics:** Authentic ammunition types and realistic ballistic trajectories.
-- **MMG Storage:** Visually distinct and high-capacity storage solutions for your base.
+- **Expanded Arsenal:** A large collection of high-quality firearms, attachments, and tactical clothing beyond the base game.
+- **Realistic Ballistics:** Authentic ammunition types and realistic ballistic trajectories.
+- **Expanded Storage:** Visually distinct, high-capacity containers for organizing your base.
 
 ### Installation
 1. Subscribe to the Survivatorium mod collection on the Steam Workshop.
@@ -70,13 +65,29 @@ The server uses a carefully curated modpack to enhance the survival experience. 
 
 When you first wake up on the shores of DeerIsle:
 
+1. **Orientation Quest** - You'll receive an automatic quest directing you to find the main Quest Board.
+2. **Start Screen Flow** - You will go through the Server Introduction Screens (rules, name/face, skills, loadout, and map respawn selection).
+3. **Starting Loadout** - You can spawn with a starter loadout. Available options include a standard civilian kit, a larger custom loadout option, and conditional loadouts (for example, skill-gated or admin-only).
+4. **Location** - Default respawn is DeerIsle random coastal/inland spawn points, with extra options such as sleeping bag or deathpoint respawn when available.
+
+### Spawn Areas
+DeerIsle has multiple spawn points along the coast. Common starting locations include:
+- Coastal towns
+- Near the main roads
+- Close to water sources
+
+
+
+*[Attach image: ../images/spawn-location.png here]*
+
 ========================================
 
 === POST 3 ===
-1. **Orientation Quest** - You'll receive an automatic quest directing you to find the main Quest Board.
-2. **Start Screen Flow** - You will go through the Terje Start Screen pages (rules, name/face, skills, loadout, and map respawn selection).
-3. **Starting Loadout** - You can spawn with a starter loadout. Available options include a standard civilian kit, a larger custom loadout option, and conditional loadouts (for example, skill-gated or admin-only).
-4. **Location** - Default respawn is DeerIsle random coastal/inland spawn points, with extra options such as sleeping bag or deathpoint respawn when available.
+---
+
+## The HUD
+
+The server features an enhanced HUD to help you monitor your vital stats:
 
 
 
@@ -85,44 +96,29 @@ When you first wake up on the shores of DeerIsle:
 ========================================
 
 === POST 4 ===
-### Spawn Areas
-DeerIsle has multiple spawn points along the coast. Common starting locations include:
-- Coastal towns
-- Near the main roads
-- Close to water sources
-
----
-
-## The HUD
-
-The server features an enhanced HUD to help you monitor your vital stats:
-
 ### Core Indicators
 - **Health & Blood** - Keep an eye on your overall condition.
 - **White Stamina Bar** - Your short-burst vanilla stamina (for sprinting, melee bursts, climbing, and fast movement).
-- **Yellow Stamina Bar** - Your long-term Inedia stamina pool, affected by weight, terrain, slope, and heat.
+- **Yellow Stamina Bar** - Your long-term endurance stamina pool, affected by weight, terrain, slope, and heat.
 - **Hunger & Thirst** - Essential survival indicators. Don't let these drop too low!
 - **Temperature** - Monitor your body heat to avoid freezing or overheating.
 
 ### Specialized Indicators
 - **Radiation Warning** - A distinct warning will appear when you enter irradiated zones. Make sure you have the proper protective gear!
 - **Skill Progress** - Notifications will pop up as you level up your various survival skills.
-- **Mind Icon (Terje Medicine)** - Tracks mental state. Low mind can trigger severe penalties and dangerous behavior.
-- **Sleep Icon (Terje Medicine)** - Tracks fatigue from the Terje sleep system.
+- **Mind Icon** - Tracks mental state. Low mind can trigger severe penalties and dangerous behavior.
+- **Sleep Icon** - Tracks fatigue from sleep deprivation.
 - **Reputation (right side)** - Your progression currency for unlocking stronger trader access.
 
 ### Advanced Stamina
 The stamina system is heavily influenced by your gear:
-- **Weight Matters:** Running heavy is still punishing, but your current server settings are tuned to be more forgiving than default Inedia values.
+- **Weight Matters:** Running heavy is still punishing, but your current server settings are tuned to be more forgiving than default values.
 - **Terrain Impact:** Running uphill, through tall grass/forest, sand, and especially water drains your yellow stamina much faster than moving on roads.
 
 ---
 
 ## Your First Steps
 
-========================================
-
-=== POST 5 ===
 ### Step 1: Find Water and Food
 - Look for water pumps in towns.
 - Search residential houses and greenhouses for canned food or fresh produce.
@@ -133,6 +129,9 @@ The stamina system is heavily influenced by your gear:
 - You might find a basic civilian firearm, but ammunition will be scarce early on.
 - Avoid military areas until you have a reliable weapon and some medical supplies.
 
+========================================
+
+=== POST 5 ===
 ### Step 3: Locate the Quest Board
 
 

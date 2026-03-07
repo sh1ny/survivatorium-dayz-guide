@@ -90,7 +90,10 @@ The local populace needs food, and the wildlife needs culling. You can pick up c
 For the combat-oriented survivor. These missions involve scouting enemy AI camps, intercepting black site communications, and engaging in heavy firefights.
 
 ### Mopping Up & Field Validation
-Prove your worth by clearing out designated zones of infected and hostile mercenaries. These quests scale in difficulty and are a great way to test your combat skills.
+Two of the server's most demanding combat questlines — both **cancel if you die**, so every run is high-stakes.
+
+- **Mopping Up** (I–X): PvP elimination contracts. Requires a proven Reputation standing before you can take them on — build your rep through other questlines first.
+- **Field Validation** (I–VIII): Neutralize infected, AI, or players in specific locations using a **designated weapon class**. Open to all players, but death resets your progress.
 
 ### VIP Escort
 High-value targets need to be moved across the island. You'll be tasked with protecting them from ambushes as they travel to extraction points like the Power Plant or Paris Island.
@@ -104,6 +107,8 @@ Follow cryptic clues to find hidden stashes of valuable loot scattered across th
 
 The Market is where you'll spend your hard-earned Hryvnia. Traders are set up in safe zones to buy and sell goods.
 
+The market is located at the **south-eastern end of Waldoboro** — follow the road south, pass under the bridge, and the market compound is at the end of that road.
+
 
 
 *[Attach image: ../images/trader-location.png here]*
@@ -113,13 +118,17 @@ The Market is where you'll spend your hard-earned Hryvnia. Traders are set up in
 === POST 6 ===
 ### What You Can Buy & Sell
 
-- **Weapons & Ammo:** Everything from basic civilian rifles to advanced military hardware, plus the ammunition and magazines to keep them firing.
+- **Weapons & Ammo:** Everything from basic civilian rifles to advanced military hardware, plus magazines and the lowest tier ammunition to keep them firing. Higher-grade ammo must be found as loot or crafted at a Workbench.
 - **Attachments:** Optics, suppressors, grips, and more to customize your firearms.
-- **Clothing & Armor:** Basic survival gear, high-end tactical clothing (like FOG gear), helmets, and plate carriers.
+- **Clothing & Gear:** Civilian vests, hunting gear, and other basic survival clothing.
 - **Medical Supplies:** Bandages, blood bags, specialized injectors, and radiation medication.
 - **Base Building:** Tools, nails, and materials to construct your stronghold.
 - **Vehicles:** Cars, boats, and helicopters (if you have the cash!).
 - **Miscellaneous & Collectibles:** Keep an eye out for rare, random items scattered across the world. Some of these oddities can fetch a high price at the right trader!
+
+!!! info "Military Clothing & Armor"
+    High-end tactical gear — military clothing, plate carriers, and helmets — is **not sold at the market**.
+    It can only be found in **Airdrops**, **KeyRooms**, and **Hacked Crates**. See the KeyRooms & Airdrops guide for details.
 
 ### Trading Tips
 - **Condition Matters:** Traders will pay less for damaged goods. Repair your weapons and clothing before selling them if possible.

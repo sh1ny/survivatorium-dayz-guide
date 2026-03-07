@@ -16,8 +16,8 @@ Survivatorium offers a variety of vehicles to suit your needs, from simple trans
 
 ### Boats
 With DeerIsle's extensive waterways and islands, boats are incredibly useful.
-- **Zodiacs:** Fast, light, and easy to hide.
-- **Utility Boats:** Better for transporting gear and small groups.
+- **Zodiacs (Vanilla/STAG):** Fast, light, and easy to hide. Require a Spark Plug to run.
+- **Large Zodiac & Utility Boats:** Better for transporting gear and small groups. Require a Glow Plug, Truck Battery, and Car Radiator — same parts as a diesel car.
 
 ### Helicopters
 The ultimate flex. Helicopters allow you to bypass the dangerous roads entirely, but they are difficult to fly and expensive to maintain.
@@ -100,7 +100,8 @@ Vehicles require constant upkeep. If you neglect them, they will leave you stran
 ### Essential Parts
 - **Cars:** Spark Plug (or Glow Plug for diesel), Car Battery, Radiator (filled with water!), and four intact tires.
 - **Helicopters:** Helicopter Battery, Igniter Plug, Hydraulic Hoses, and a working Tail Rotor.
-- **Boats:** Spark Plug and fuel.
+- **Boats (Vanilla Zodiac, STAG):** Spark Plug and fuel.
+- **Boats (Large Zodiac & Utility Boat):** Glow Plug, Truck Battery, Car Radiator, and fuel.
 
 ### Common Issues
 - **Won't Start:** Check the battery and spark plug. Make sure you have fuel!

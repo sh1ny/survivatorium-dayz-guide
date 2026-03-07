@@ -7,7 +7,7 @@ Master the arsenal of Survivatorium. With an expanded selection of firearms, rea
 
 ## The Arsenal
 
-Survivatorium features a massive variety of firearms, blending vanilla DayZ weapons with high-quality additions from the **Tactical Flava** and **DayZ Expansion** mods.
+Survivatorium features a massive variety of firearms, blending vanilla DayZ weapons with high-quality additions from a large selection of weapon packs.
 
 ### Weapon Categories
 - **Sidearms:** From basic Makarovs to high-capacity FN Five-seveNs and Desert Eagles. Perfect for backup or dealing with infected.
@@ -42,13 +42,13 @@ Choose the right sight for the job:
 - **Compensators:** Help manage recoil for faster follow-up shots.
 
 ### Furniture
-Upgrade your weapon's handling and ergonomics by swapping out handguards, buttstocks, and pistol grips. Many Tactical Flava weapons offer extensive modularity, allowing you to build your perfect rifle.
+Upgrade your weapon's handling and ergonomics by swapping out handguards, buttstocks, and pistol grips. Many of the expanded weapons offer extensive modularity, allowing you to build your perfect rifle.
 
 ---
 
-## Real-World Ammo & Ballistics
+## Realistic Ballistics
 
-Survivatorium uses the **Real-World Ammo & Ballistics** mod, which significantly changes how firearms behave compared to vanilla DayZ.
+Survivatorium uses a realistic ballistics system, which significantly changes how firearms behave compared to vanilla DayZ.
 
 
 
@@ -62,6 +62,129 @@ Survivatorium uses the **Real-World Ammo & Ballistics** mod, which significantly
 - **Realistic Trajectories:** Bullets experience realistic drop and wind drift over distance. You will need to learn how to zero your optics and compensate for bullet drop.
 - **Penetration & Damage:** Different calibers have different penetration values. A 5.56x45mm round will behave very differently against body armor than a 7.62x51mm round.
 - **Armor Matters:** High-tier plate carriers and helmets will save your life against smaller calibers, but heavy sniper rounds or armor-piercing ammunition can still punch through.
+
+---
+
+## Clothing & Armor
+
+Not all clothing is equal. What you wear has a real, calculated effect on how much damage you absorb from melee hits and bullets. Understanding the tiers helps you make smarter looting decisions — especially knowing the difference between gear that looks tactical and gear that *is* tactical.
+
+---
+
+### How Protection Works
+
+Every item you wear on each body slot contributes a weighted fraction of protection. Some slots matter more than others — your head and face account for far more of your total protection than your boots or gloves. Stacking protection across all slots gives the best result, but no single piece of gear will save you on its own.
+
+Protection affects **how much damage is reduced**, not whether a hit lands. You will still take damage — you'll just take less of it.
+
+---
+
+### Clothing Tiers
+
+#### Civilian Clothing
+T-shirts, jeans, hoodies, casual jackets. Minimal protection — essentially just fabric. Better than nothing against a knife, but gunfire passes through as if you're wearing nothing meaningful.
+
+========================================
+
+=== POST 4 ===
+#### Military / Tactical Clothing
+Combat shirts (Crye G3, 5.11), tactical pants, military field jackets, and ripstop/Cordura fabric gear. Slightly more cut and abrasion resistant. Does **not** stop bullets.
+
+#### Accessories (Pouches, Belts, Panels)
+A body covered in MOLLE pouches stuffed with gear does technically provide a marginal token of protection — think of it as the zippo-lighter-in-a-breast-pocket effect. Statistically negligible. Don't plan around it.
+
+---
+
+### Vest Tiers
+
+Vests are where protection actually matters. There are five tiers based on real-world ballistic ratings.
+
+---
+
+#### 🟤 Tier 1 — Load-bearing (no armor)
+
+These vests hold your gear. That's it — no ballistic plates, no soft armor panels. They look tactical and will not stop a bullet.
+
+- **Plate Frame Carrier** (Notes: Empty frame, no insert pockets)
+- **TV-110T Chest Rig** (Notes: Magazine carrier only)
+- **ALSE Survival Vest** (Notes: Aviation life support vest)
+
+!!! warning "A chest rig is not a vest"
+    If it has no ballistic insert, it's Tier 1. You are effectively unarmored in the vest slot.
+
+---
+
+#### 🟡 Tier 2 — Soft Body Armor
+
+Woven Kevlar or ballistic fabric — no hard plates. Rated against handgun calibers (9mm, .45 ACP, .44 Mag). Will **not** stop rifle fire.
+
+- **PACA Soft Armor** (Notes: Concealable NIJ IIIA soft vest)
+- **LV-MBAV** (Notes: Low-visibility MBAV, handgun rated)
+
+Good for: Close-quarters PvP where pistols dominate, undercover loadouts.
+
+---
+
+#### 🟠 Tier 3 — Light Plate Carrier
+
+Ceramic or steel plates rated for common rifle threats — 5.56, 7.62×39, 7.62×51 M80. The bread-and-butter military vest. A massive improvement over soft armor in any sustained firefight.
+
+========================================
+
+=== POST 5 ===
+- **Crye Precision AVS** (Notes: High-end modular carrier)
+- **Crye Precision JPC** (Notes: Jumpable Plate Carrier, lightweight)
+- **Crye Precision JPC 2.0** (Notes: Updated JPC with improved coverage)
+- **LBT-6094** (Notes: Standard US military issue carrier)
+- **AWS SPC** (Notes: Scalable Plate Carrier)
+- **DPC Plate Carrier** (Notes: Dynamic Plate Carrier)
+- **D3CRX** (Notes: Lightweight competition carrier)
+- **SSMK4 Plate Carrier** (Notes: High-mobility design)
+- **Osprey MK4** (Notes: British military issue)
+
+Good for: General combat, military zone looting, PvP at any range.
+
+---
+
+#### 🔴 Tier 4 — Heavy Plate Carrier
+
+Top-tier ballistic protection. Handles AP rifle rounds, multi-hit capable. What tier-1 operators wear into the hardest objectives.
+
+- **Crye Precision CPC** (Notes: Cage Plate Carrier, special operations)
+- **Ferro Concepts FCPC** (Notes: Ultralight competition carrier with hard plates)
+- **LV-119 Plate Carrier** (Notes: Paraclete-style heavy carrier)
+- **MMAC Plate Carrier** (Notes: Modular Multi-mission Assault Carrier)
+- **5.11 TacTec Plate Carrier** (Notes: Law enforcement / mil-spec)
+
+Good for: High-value zone raids, endgame PvP, opponents running AP ammunition.
+
+---
+
+#### 🟥 Tier 5 — Full-coverage Military Armor
+
+The heaviest armor in the game. Full front, back, and side hard plate coverage with groin and shoulder protection. These are visually the largest carriers — you will know one when you see it on the ground.
+
+- **IOTV Gen4 Body Armor** (Notes: US Army-issue full-coverage carrier)
+- **Thor Integrated Carrier** (Notes: Full wraparound plate carrier)
+
+Good for: Absorbing sustained fire in the most dangerous zones. The tradeoff is weight and mobility.
+
+========================================
+
+=== POST 6 ===
+!!! tip "Biggest vs. best"
+    T5 vests absorb more from the vest slot than any other piece of gear, but the vest slot is still only ~17% of total protection weighting. A T5 vest doesn't replace a helmet and gasmask.
+
+---
+
+### Helmets
+
+Helmets cover the headgear slot. Your head and face together account for over 50% of total protection weighting — a bare skull is a serious liability. Ballistic helmets are rated against pistol/fragment threats, not direct rifle hits, but every bit counts.
+
+---
+
+!!! tip "Layering beats single-slot optimization"
+    A player in a T4 vest with no helmet and bare hands absorbs less total damage than one wearing a T3 vest, a combat helmet, and tactical gloves. Cover all slots.
 
 ---
 
@@ -90,7 +213,7 @@ Heavily armed AI patrols guard key military installations and high-value loot zo
 
 ========================================
 
-=== POST 4 ===
+=== POST 7 ===
 ### Patrol Helicopters
 Keep an eye on the sky. Heavily armed patrol helicopters occasionally sweep the island. If they spot you, they will open fire with devastating weaponry. Taking one down yields incredible rewards, but it requires heavy firepower and coordination.
 
@@ -100,7 +223,7 @@ Keep an eye on the sky. Heavily armed patrol helicopters occasionally sweep the 
 
 When you engage in PvP and emerge victorious, you can claim a trophy to prove your skills.
 - **Collecting Dogtags:** When you kill another player, you can loot their Dogtag from their body.
-- **Secure Containers:** You can store these dogtags safely in specialized secure containers to ensure you don't lose your hard-earned trophies if you are killed on your way back to base.
+- **Keep Them Safe:** Store your dogtags in your base stash so you don't lose them if you're killed.
 
 ---
 
